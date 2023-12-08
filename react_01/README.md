@@ -93,7 +93,40 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
     - react-app_08
 
 
+### 9 - Para saber mais: componentes funcionais
 
+Durante o curso, nós vamos trabalhar apenas com componentes funcionais. Essa é a forma mais simples de criar um componente React.
+
+Mas ela não é a única forma possível. Podemos criar componentes utilizando Classes do ES6.
+
+
+Vamos entender um pouco mais as diferenças?
+
+Aqui vai um componente funcional:
+
+```js
+function BoasVindas(props) {
+  return <h1>Olá, {props.nome}</h1>;
+}
+```
+
+O mesmo componente, baseado em classes, seria:
+
+```js
+class BoasVindas extends React.Component {
+  render() {
+    return <h1>Olá, {this.props.nome}</h1>;
+  }
+}
+```
+Além da sintaxe, existem diversas diferenças. Se você quiser ir mais fundo no conceito de componentes baseado em classes, a documentação é a nossa melhor fonte.
+
+- Componentes e Props
+
+- Link: https://pt-br.legacy.reactjs.org/docs/components-and-props.html
+
+- Exemplo:
+    - react-app_09
 
 
 
