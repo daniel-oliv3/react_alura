@@ -128,14 +128,40 @@ Além da sintaxe, existem diversas diferenças. Se você quiser ir mais fundo no
 - Exemplo:
     - react-app_09
 
+### 10 - Entendendo o retorno em um componente React
 
+Hoje é um grande dia! Depois de completar o curso "React: desenvolvendo com JavaScript" e construir alguns projetos para adquirir prática, você finalmente recebeu uma ligação para uma entrevista de emprego para uma vaga de desenvolvedor(a) júnior React. Durante a entrevista, o(a) recrutador(a) quer verificar sua compreensão sobre os componentes React e JSX. Eles te fornecem um trecho de código e pedem para identificar o que está errado e sugerir uma correção.
 
+```js
+function Botao() {
+  return {
+    <button>Click me</button>
+  };
+}
+```
 
+- Qual é o erro no código acima e como você corrigiria-o?
 
+- A: - O JSX precisa ser escrito em uma linha, não em várias.
+    - Não há problema em escrever JSX em várias linhas. Na verdade, é uma prática comum para melhorar a legibilidade do código.
 
+- B: - Deveria ser usada uma arrow function em vez de uma função normal.
+    - Não existe uma necessidade de usar uma arrow function em vez de uma função normal neste caso. As duas formas são aceitas pelo React.
 
+- C: - A função Botao está retornando um objeto, quando deveria estar retornando diretamente o JSX.
+    - Alternativa correta: No React, um componente deve retorrar diretamente o JSX. O código corrigido ficaria assim:
 
+```js
+// resposta correta
+function Botao() {
+  return (
+    <button>Click me</button>
+  );
+}
+```
 
+- D - A tag < button> deve ser substituída por < Button>
+    - A tag < button> não é o problema neste snippet. Realmente ela é a tag padrão para criar um botão em JSX/HTML.
 
 
 
