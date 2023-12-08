@@ -63,7 +63,10 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
     - react-app_03
 
 
+### 4 - Primeiro componente Banner
 
+- Exemplo:
+    - react-app_04
 
 
 
