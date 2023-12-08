@@ -160,13 +160,24 @@ function Botao() {
 }
 ```
 
-- D - A tag < button> deve ser substituída por < Button>
-    - A tag < button> não é o problema neste snippet. Realmente ela é a tag padrão para criar um botão em JSX/HTML.
+- D - A tag `<button>` deve ser substituída por `<Button>`
+    - A tag `<button>` não é o problema neste snippet. Realmente ela é a tag padrão para criar um botão em JSX/HTML.
+
+- Exemplo:
+    - react-app_10
 
 
+### 11 - Para saber mais: Node.JS
 
+**Para saber mais: Node.JS**
 
+PRÓXIMA ATIVIDADE
 
+Sabemos que mergulhos mais fundos vem com o tempo, mas nesse momento é muito importante entendermos o que é o Node.JS.
+Tanto o Node quanto o NPM vão fazer parte do nosso dia a dia enquanto pessoas desenvolvedoras frontend.
+
+- Exemplo:
+    - react-app_11
 
 
 
