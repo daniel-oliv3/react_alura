@@ -69,6 +69,9 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
     - react-app_04
 
 
+### 5 - Explorando o projeto
 
+- Exemplo:
+    - react-app_05
 
 
