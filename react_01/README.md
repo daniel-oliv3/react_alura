@@ -79,3 +79,64 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
 
 - Exemplo:
     - react-app_06
+
+
+### 7 - Parâmetros de componente
+
+- Exemplo:
+    - react-app_07
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
