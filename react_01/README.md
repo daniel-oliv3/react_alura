@@ -11,6 +11,7 @@
 
 - Documentação
     - Link: https://pt-br.legacy.reactjs.org/
+    - Node: https://nodejs.org/en
 
 - criar o projeto react
 ```
@@ -181,11 +182,17 @@ Tanto o Node quanto o NPM vão fazer parte do nosso dia a dia enquanto pessoas d
 
 
 
+### 12 - Faça como eu fiz: primeiros componentes
 
+Chegou a sua hora de brilhar.
 
+Crie o projeto React, remova os itens que não serão utilizados e implemente os seguintes componentes:
 
+- Banner
+- CampoTexto
 
-
+- Exemplo:
+    - react-app_12
 
 
 
