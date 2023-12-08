@@ -9,8 +9,24 @@
 
 ### 1 - Apresentação
 
+- Documentação
+    - Link: https://pt-br.legacy.reactjs.org/
+
+- criar o projeto react
+```
+npx create-react-app react-app_01
+```
+
+- Roda o projeto
+```
+npm start
+```
+
+- Localhost:
+    - Link: http://localhost:3000/
+
 - Exemplo:
-    - react_01
+    - react-app_01
 
 
 ### 2 - Preparando o ambiente
@@ -31,14 +47,20 @@ Para instalar o Node, clique no link do Node.js e baixe a versão LTS (versão r
 
 Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v` ou `node --version`.
 
+
+- Figma
+    - Projeto: https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?type=design&node-id=134-128&mode=design
+
+
 - Exemplo:
-    - react_02
+    - react-app_02
 
 
 
+### 3 - Olá mundo
 
-
-
+- Exemplo:
+    - react-app_03
 
 
 
