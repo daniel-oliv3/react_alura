@@ -191,17 +191,68 @@ Crie o projeto React, remova os itens que não serão utilizados e implemente os
 - Banner
 - CampoTexto
 
+Opinião do instrutor
+
+Como foi a experiência de criar seus primeiros componentes?
+
+Se precisar de ajuda, aqui vai o gabarito:
+
+- Banner/index.js
+
+```js
+import './Banner.css'
+
+export const Banner = () => {
+    // JSX
+    return (
+        <header className="banner">
+            <img src="/imagens/banner.png" alt="O banner principal da página do Organo"/>
+        </header>
+    )
+}
+```
+
+- CampoTexto/index.js
+
+```js
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+
+    const placeholderModificada = `${props.placeholder}...` 
+
+    return (
+        <div className="campo-texto">
+            <label>
+                {props.label}
+            </label>
+            <input placeholder={placeholderModificada}/>
+        </div>
+    )
+}
+
+export default CampoTexto
+```
+
 - Exemplo:
     - react-app_12
 
 
+### 13 - O que aprendemos?
 
+- Criamos um novo projeto React;
+- Criamos componentes funcionais;
+- Estilizamos componentes com CSS;
+- Analisamos as dependências do projeto;
+- Analisamos os comandos disponíveis no package.json.
 
+- Exemplo:
+    - react-app_13
 
+### 14 - Projeto da aula anterior
 
-
-
-
+- Exemplo:
+    - react-app_14
 
 
 
