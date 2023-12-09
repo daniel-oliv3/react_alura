@@ -334,14 +334,90 @@ Durante o curso, nós aprendemos a renderizar listas de elementos dentro dos com
 
 
 
+### 21 - Faça como eu fiz: trabalhando com listas
+
+Chegou a sua hora de brilhar.
+
+Primeiro, ajuste o `CampoTexto` para receber as props relacionadas. Depois, crie o componente `ListaSuspensa` para permitir que o usuário selecione o time do colaborador.
+
+Em caso de dúvidas, não deixe de usar o fórum.
+
+- Opinião do instrutor
+
+Como foi a experiência de trabalhar com props e listas?
+
+Se precisar de ajuda, aqui vai o gabarito:
+
+
+- CampoTexto/index.js
+
+```js
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+
+    const placeholderModificada = `${props.placeholder}...` 
+
+    let valor = 'Guilherme Silveira'
+
+    const aoDigitado = (evento) => {
+        valor = evento.target.value
+        console.log(valor)
+    }
+
+    return (
+        <div className="campo-texto">
+            <label>
+                {props.label}
+            </label>
+            <input value={valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
+        </div>
+    )
+}
+
+export default CampoTexto
+
+```
+
+- ListaSuspensa/index.js
+
+```js
+import './ListaSuspensa.css'
+
+const ListaSuspensa = (props) => {
+    console.log(props.itens)
+
+    return (
+        <div className='lista-suspensa'>
+            <label>{props.label}</label>
+            <select required={props.required}>
+                {props.itens.map(item => {
+                    return <option key={item}>{item}</option>
+                })}
+            </select>
+        </div>
+    )
+}
+
+export default ListaSuspensa
+```
+
+- Exemplo:
+    - react-app_21
 
 
 
+### 22 - O que aprendemos?
 
+Nessa aula:
 
+Aprendemos como passar `props` para um componente;
+Renderizamos listas com o `.map`;
+Trabalhamos com elementos aninhados usando a `prop` `children`;
+Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
-
-
+- Exemplo:
+    - react-app_22
 
 
 
