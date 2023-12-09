@@ -7,6 +7,11 @@
 </p>
 
 
+##
+### Parte 1
+##
+
+
 ### 1 - Apresentação
 
 - Documentação
@@ -422,13 +427,16 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 
 
+##
+### Parte 3
+##
 
 
 
+### 23 - Projeto da aula anterior
 
-
-
-
+- Exemplo:
+    - react-app_23
 
 
 
