@@ -285,4 +285,72 @@ export default CampoTexto
     - react-app_18
 
 
+### 19 - Para saber mais: eventos HTML
+
+**Para saber mais: eventos HTML**
+
+No componente `Formulario`, nós aguardamos pelo evento `onSubmit`. Assim, podemos aproveitar a validação nativa do HTML dos inputs que são obrigatórios.
+
+Mas esse não é nem de longe o único evento disponível!
+
+Aqui, você vizualiza os eventos HTML disponíveis atualmente (em inglês).
+
+- Event reference
+    - Link: https://developer.mozilla.org/en-US/docs/Web/Events
+
+Mas fique atento que, no universo React, os eventos são nomeados com camelCase, logo: `onclick` vira `onClick`.
+
+- CamelCase
+    - Link: https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case?
+
+Quer saber ainda mais? Se liga aqui.
+
+- Manipulando eventos
+    - Link: https://pt-br.legacy.reactjs.org/docs/handling-events.html
+
+- Exemplo:
+    - react-app_19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
