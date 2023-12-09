@@ -301,7 +301,7 @@ Aqui, você vizualiza os eventos HTML disponíveis atualmente (em inglês).
 Mas fique atento que, no universo React, os eventos são nomeados com camelCase, logo: `onclick` vira `onClick`.
 
 - CamelCase
-    - Link: https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case?
+    - Link: https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case
 
 Quer saber ainda mais? Se liga aqui.
 
@@ -316,9 +316,21 @@ Quer saber ainda mais? Se liga aqui.
 
 
 
+### 20 - forEach vs map
+
+**forEach vs map**
+
+Durante o curso, nós aprendemos a renderizar listas de elementos dentro dos componentes React. Falamos sobre a diferença entre o `.map` e o `.forEach`. Por que utilizamos o `.map`?
+
+- A: Porque o `.map` retorna um novo array de elementos, baseado no que retornamos na função passada por callback
+    - lternativa correta! Exatamente isso! Para dar um mergulho mais fundo, se liga nesse vídeo do Dev Soutinho.
+    - Link: https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
+
+- B: Utilizamos o `.map` apenas por opção nossa, pois podemos obter o mesmo resultado com o `.forEach`.
 
 
-
+- Exemplo:
+    - react-app_20
 
 
 
