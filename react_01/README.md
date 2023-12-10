@@ -14,6 +14,8 @@
 
 ### 1 - Apresentação
 
+**Apresentação**
+
 - Documentação
     - Link: https://pt-br.legacy.reactjs.org/
     - Node: https://nodejs.org/en
@@ -36,6 +38,8 @@ npm start
 
 
 ### 2 - Preparando o ambiente
+
+**Preparando o ambiente**
 
 Este curso é indicado para aqueles que já conhecem HTML, CSS e sabem como manipular os elementos do DOM com JavaScript.
 
@@ -65,11 +69,15 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
 
 ### 3 - Olá mundo
 
+**Olá mundo**
+
 - Exemplo:
     - react-app_03
 
 
 ### 4 - Primeiro componente Banner
+
+**Primeiro componente Banner**
 
 - Exemplo:
     - react-app_04
@@ -77,11 +85,15 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
 
 ### 5 - Explorando o projeto
 
+**Explorando o projeto**
+
 - Exemplo:
     - react-app_05
 
 
 ### 6 - Campo de texto
+
+**Campo de texto**
 
 - Exemplo:
     - react-app_06
@@ -89,17 +101,23 @@ Para verificar se foi instalado corretamente, abra o terminal e escreva `node -v
 
 ### 7 - Parâmetros de componente
 
+**Parâmetros de componente**
+
 - Exemplo:
     - react-app_07
 
 
 ### 8 - Criando o formulário
 
+**Criando o formulário**
+
 - Exemplo:
     - react-app_08
 
 
 ### 9 - Para saber mais: componentes funcionais
+
+**Para saber mais: componentes funcionais**
 
 Durante o curso, nós vamos trabalhar apenas com componentes funcionais. Essa é a forma mais simples de criar um componente React.
 
@@ -135,6 +153,8 @@ Além da sintaxe, existem diversas diferenças. Se você quiser ir mais fundo no
     - react-app_09
 
 ### 10 - Entendendo o retorno em um componente React
+
+**Entendendo o retorno em um componente React**
 
 Hoje é um grande dia! Depois de completar o curso "React: desenvolvendo com JavaScript" e construir alguns projetos para adquirir prática, você finalmente recebeu uma ligação para uma entrevista de emprego para uma vaga de desenvolvedor(a) júnior React. Durante a entrevista, o(a) recrutador(a) quer verificar sua compreensão sobre os componentes React e JSX. Eles te fornecem um trecho de código e pedem para identificar o que está errado e sugerir uma correção.
 
@@ -188,6 +208,8 @@ Tanto o Node quanto o NPM vão fazer parte do nosso dia a dia enquanto pessoas d
 
 
 ### 12 - Faça como eu fiz: primeiros componentes
+
+**Faça como eu fiz: primeiros componentes**
 
 Chegou a sua hora de brilhar.
 
@@ -245,6 +267,8 @@ export default CampoTexto
 
 ### 13 - O que aprendemos?
 
+**O que aprendemos?**
+
 - Criamos um novo projeto React;
 - Criamos componentes funcionais;
 - Estilizamos componentes com CSS;
@@ -255,6 +279,8 @@ export default CampoTexto
     - react-app_13
 
 ### 14 - Projeto da aula anterior
+
+**Projeto da aula anterior**
 
 - Exemplo:
     - react-app_14
@@ -267,11 +293,15 @@ export default CampoTexto
 
 ### 15 - Um framework declarativo
 
+**Um framework declarativo**
+
 - Exemplo:
     - react-app_15
 
 
 ### 16 - Lista dos times
+
+**Lista dos times**
 
 - Exemplo:
     - react-app_16
@@ -279,12 +309,16 @@ export default CampoTexto
 
 ### 17 - Criando o botão
 
+**Criando o botão**
+
 - Exemplo:
     - react-app_17
 
 
 
 ### 18 - Escutando eventos
+
+**Escutando eventos**
 
 - Exemplo:
     - react-app_18
@@ -340,6 +374,8 @@ Durante o curso, nós aprendemos a renderizar listas de elementos dentro dos com
 
 
 ### 21 - Faça como eu fiz: trabalhando com listas
+
+**Faça como eu fiz: trabalhando com listas**
 
 Chegou a sua hora de brilhar.
 
@@ -414,6 +450,8 @@ export default ListaSuspensa
 
 ### 22 - O que aprendemos?
 
+**O que aprendemos?**
+
 Nessa aula:
 
 Aprendemos como passar `props` para um componente;
@@ -435,10 +473,14 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 ### 23 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
 - Exemplo:
     - react-app_23
 
 ### 24 - Manipulando o input do usuário
+
+**Manipulando o input do usuário**
 
 - Exemplo:
     - react-app_24
@@ -446,12 +488,16 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 ### 25 - Controlando o estado
 
+**Controlando o estado**
+
 - Exemplo:
     - react-app_25
 
 
 
 ### 26 - Cadastrando colaboradores
+
+**Cadastrando colaboradores**
 
 - Exemplo:
     - react-app_26
@@ -461,6 +507,7 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 ### 27 - Usando o estado?
 
+**Usando o estado?**
 
 A Isa, a nova frontend do time, está com dúvidas sobre o useState. Ela te chamou e questionou:
 Qual a diferença entre controlar uma variável com o useState e criar e atribuir normalmente uma let?
@@ -475,14 +522,24 @@ Assinale abaixo a alternativa que melhor responde a essa pergunta.
 
 - **B**: Não há nenhuma diferença. O resultado final é o mesmo.
 
+- Exemplo:
+    - react-app_27
 
 
 
+### 28 - Para saber mais: Stateless VS Statefull
+
+**Para saber mais: Stateless VS Statefull**
+
+React tem duas abordagens diferentes para lidar com inputs de formulários.
+
+Um elemento de input de formulário cujo valor é controlado pelo React é chamado de componente controlado (statefull em inglês). Quando o usuário insere dados em um componente controlado, o evento que manipula essa alteração é disparado e o seu código decide se o input é válido (ou seja, renderizado com o valor atualizado). Se você não re-renderizar o elemento de formulário, permanecerá inalterado.
+
+Um componente não controlado (stateless em inglês) funciona como um elemento de formulário fora do React. Quando um usuário insere dados em um campo de formulário (um input box, dropbox, etc), a informação atualizada é refletida sem necessidade do React fazer nada. No entanto, isso também significa que você não pode forçar o campo a ter um certo valor.
 
 
-
-
-
+- Exemplo:
+    - react-app_28
 
 
 
