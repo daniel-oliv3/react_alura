@@ -694,15 +694,30 @@ export default App;
 
 
 
+### 30 - O que aprendemos?
+
+**O que aprendemos?**
+
+*Nessa aula, você aprendeu como*:
+Controlar inputs utilizando `value` e `onChange`;
+Gerenciar o estado de um componente, utilizando o `useState`;
+Trabalhar com `props` que são funções.
+
+- Exemplo:
+    - react-app_30
 
 
+##
+### Parte 4
+##
 
 
+### 31 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
-
-
-
+- Exemplo:
+    - react-app_31
 
 
 
