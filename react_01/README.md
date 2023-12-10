@@ -451,7 +451,10 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 
 
+### 26 - Cadastrando colaboradores
 
+- Exemplo:
+    - react-app_26
 
 
 
