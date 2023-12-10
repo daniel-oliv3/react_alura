@@ -542,7 +542,155 @@ Um componente não controlado (stateless em inglês) funciona como um elemento d
     - react-app_28
 
 
+### 29 - Faça como eu fiz: controlando os inputs
 
+**Faça como eu fiz: controlando os inputs**
+
+Faça o controle dos valores dos `inputs` utilizando o `value` e o `onChange`.
+
+Depois, controle o estado do formulário utilizando o `useState`.
+
+Por fim, desenvolva o comportamento do Formulário e receba os dados do novo colaborador no `App.js`.
+
+- **Opinião do instrutor**
+
+Como foi a experiência de trabalhar com componentes controlados?
+E enviar funções como props?
+Se precisar de ajuda, aqui vai o gabarito:
+
+- CampoTexto/index.js
+
+```js
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+
+    const placeholderModificada = `${props.placeholder}...` 
+
+    const aoDigitado = (evento) => {
+        props.aoAlterado(evento.target.value)
+    }
+
+    return (
+        <div className="campo-texto">
+            <label>
+                {props.label}
+            </label>
+            <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
+        </div>
+    )
+}
+
+export default CampoTexto
+```
+
+- Formulario/index.js
+
+```js
+import { useState } from 'react'
+import Botao from '../Botao'
+import CampoTexto from '../CampoTexto'
+import ListaSuspensa from '../ListaSuspensa'
+import './Formulario.css'
+
+const Formulario = (props) => {
+
+    const times = [
+        'Programação',
+        'Front-End',
+        'Data Science',
+        'Devops',
+        'UX e Design',
+        'Mobile',
+        'Inovação e Gestão'
+    ]
+
+    const [nome, setNome] = useState('')
+    const [cargo, setCargo] = useState('')
+    const [imagem, setImagem] = useState('')
+    const [time, setTime] = useState('')
+
+    const aoSalvar = (evento) => {
+        evento.preventDefault()
+        props.aoColaboradorCadastrado({
+            nome,
+            cargo,
+            imagem,
+            time
+        })
+    }
+
+    return (
+        <section className="formulario">
+            <form onSubmit={aoSalvar}>
+                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <CampoTexto 
+                    obrigatorio={true}
+                    label="Nome"
+                    placeholder="Digite seu nome" 
+                    valor={nome}
+                    aoAlterado={valor => setNome(valor)}
+                />
+                <CampoTexto
+                    obrigatorio={true}
+                    label="Cargo"
+                    placeholder="Digite seu cargo" 
+                    valor={cargo}
+                    aoAlterado={valor => setCargo(valor)}
+                />
+                <CampoTexto
+                    label="Imagem"
+                    placeholder="Digite o endereço da imagem" 
+                    valor={imagem}
+                    aoAlterado={valor => setImagem(valor)}
+                />
+                <ListaSuspensa
+                    obrigatorio={true}
+                    label="Time" 
+                    itens={times}
+                    valor={time}
+                    aoAlterado={valor => setTime(valor)}
+                />
+                <Botao>
+                    Criar Card
+                </Botao>
+            </form>
+        </section>
+    )
+}
+
+export default Formulario
+```
+
+- App.js
+
+```js
+import { useState } from 'react';
+import Banner from './componentes/Banner';
+import Formulario from './componentes/Formulario';
+
+function App() {
+
+  const [colaboradores, setColaboradores] = useState([])
+
+  const aoNovoColaboradorAdicionado = (colaborador) => {
+    console.log(colaborador)
+    setColaboradores([...colaboradores, colaborador])
+  }
+
+  return (
+    <div className="App">
+      <Banner />
+      <Formulario aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
+    </div>
+  );
+}
+
+export default App;
+```
+
+- Exemplo:
+    - react-app_29
 
 
 
