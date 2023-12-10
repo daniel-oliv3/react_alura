@@ -148,13 +148,13 @@ function Botao() {
 
 - Qual é o erro no código acima e como você corrigiria-o?
 
-- A: - O JSX precisa ser escrito em uma linha, não em várias.
+- **A**: - O JSX precisa ser escrito em uma linha, não em várias.
     - Não há problema em escrever JSX em várias linhas. Na verdade, é uma prática comum para melhorar a legibilidade do código.
 
-- B: - Deveria ser usada uma arrow function em vez de uma função normal.
+- **B**: - Deveria ser usada uma arrow function em vez de uma função normal.
     - Não existe uma necessidade de usar uma arrow function em vez de uma função normal neste caso. As duas formas são aceitas pelo React.
 
-- C: - A função Botao está retornando um objeto, quando deveria estar retornando diretamente o JSX.
+- **C**: - A função Botao está retornando um objeto, quando deveria estar retornando diretamente o JSX.
     - Alternativa correta: No React, um componente deve retorrar diretamente o JSX. O código corrigido ficaria assim:
 
 ```js
@@ -166,7 +166,7 @@ function Botao() {
 }
 ```
 
-- D - A tag `<button>` deve ser substituída por `<Button>`
+- **D**: - A tag `<button>` deve ser substituída por `<Button>`
     - A tag `<button>` não é o problema neste snippet. Realmente ela é a tag padrão para criar um botão em JSX/HTML.
 
 - Exemplo:
@@ -327,11 +327,11 @@ Quer saber ainda mais? Se liga aqui.
 
 Durante o curso, nós aprendemos a renderizar listas de elementos dentro dos componentes React. Falamos sobre a diferença entre o `.map` e o `.forEach`. Por que utilizamos o `.map`?
 
-- A: Porque o `.map` retorna um novo array de elementos, baseado no que retornamos na função passada por callback
+- **A**: Porque o `.map` retorna um novo array de elementos, baseado no que retornamos na função passada por callback
     - lternativa correta! Exatamente isso! Para dar um mergulho mais fundo, se liga nesse vídeo do Dev Soutinho.
     - Link: https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
 
-- B: Utilizamos o `.map` apenas por opção nossa, pois podemos obter o mesmo resultado com o `.forEach`.
+- **B**: Utilizamos o `.map` apenas por opção nossa, pois podemos obter o mesmo resultado com o `.forEach`.
 
 
 - Exemplo:
@@ -455,6 +455,84 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 - Exemplo:
     - react-app_26
+
+
+
+
+### 27 - Usando o estado?
+
+
+A Isa, a nova frontend do time, está com dúvidas sobre o useState. Ela te chamou e questionou:
+Qual a diferença entre controlar uma variável com o useState e criar e atribuir normalmente uma let?
+Assinale abaixo a alternativa que melhor responde a essa pergunta.
+
+- **Selecione uma alternativa**
+
+- **A**: Sempre que queremos que o componente reaja a alguma alteração no valor de uma variável e se renderize novamente, precisamos indicar isto utilizando o useState. Do contrário, o valor vai ser alterado mas o DOM não será atualizado.
+    - Alternativa correta! Exatamente isso! Para ir mais fundo nesse hook
+    - **API de Referência dos Hooks**
+    - Link: https://pt-br.reactjs.org/docs/hooks-reference.html#functional-updates
+
+- **B**: Não há nenhuma diferença. O resultado final é o mesmo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
