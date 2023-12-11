@@ -747,7 +747,13 @@ Trabalhar com `props` que são funções.
     - react-app_34
 
 
+### 35 - Card de colaborador
 
+**Card de colaborador**
+
+
+- Exemplo:
+    - react-app_35
 
 
 
