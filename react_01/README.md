@@ -764,10 +764,12 @@ Trabalhar com `props` que são funções.
     - react-app_36
 
 
+### 37 - Escondendo times vazios
 
+**Escondendo times vazios**
 
-
-
+- Exemplo:
+    - react-app_37
 
 
 
