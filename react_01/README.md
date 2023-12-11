@@ -756,7 +756,12 @@ Trabalhar com `props` que são funções.
     - react-app_35
 
 
+### 36 - Mapeando os colaboradores
 
+**Mapeando os colaboradores**
+
+- Exemplo:
+    - react-app_36
 
 
 
