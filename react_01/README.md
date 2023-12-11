@@ -738,7 +738,13 @@ Trabalhar com `props` que são funções.
 
 
 
+### 34 - Refatorando código duplicado
 
+**Refatorando código duplicado**
+
+
+- Exemplo:
+    - react-app_34
 
 
 
