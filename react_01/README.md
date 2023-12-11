@@ -720,7 +720,12 @@ Trabalhar com `props` que são funções.
     - react-app_31
 
 
+### 32 - Criando o componente Time
 
+**Criando o componente Time**
+
+- Exemplo:
+    - react-app_32
 
 
 
