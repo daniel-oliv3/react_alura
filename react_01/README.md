@@ -728,8 +728,13 @@ Trabalhar com `props` que são funções.
     - react-app_32
 
 
+### 33 - Elevando a lista de times
+
+**Elevando a lista de times**
 
 
+- Exemplo:
+    - react-app_33
 
 
 
