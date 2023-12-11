@@ -773,7 +773,35 @@ Trabalhar com `props` que são funções.
 
 
 
+### 38 - Renderização condicional
 
+**Renderização condicional**
+
+- Analise o componente a seguir:
+
+```js
+const MaiorDeIdade = ({ colaborador }) => {
+
+    const idade = 19;
+
+    return (<div>
+        {idade >= 18 && <p>É maior de idade</p>}
+        {idade < 18 && <p>Não é maior de idade</p>}
+    </div>)
+}
+
+export default MaiorDeIdade
+```
+
+- O que será renderizado?
+
+- A: `<p>É maior de idade</p>`
+    - Alternativa correta! Exatamente isso! Usamos o operador && para retornar o segundo elemento da comparação.
+
+- B: `<p>Não é maior de idade</p>`
+
+- Exemplo:
+    - react-app_38
 
 
 
