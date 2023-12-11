@@ -805,10 +805,18 @@ export default MaiorDeIdade
 
 
 
+### 39 - Para saber mais: Prop drilling
 
+**Para saber mais: Prop drilling**
 
+Prop drilling, em tradução livre, significa "vazamento de props", e acontece quando você passa uma ou mais props, do pai para o filho, o filho passa para o filho dele, e assim por diante. Lidar com esse prop drilling pode ser desafiador, pois em pouco tempo fica difícil para qualquer pessoa descobrir onde os dados são inicializados, atualizados e usados de fato.
 
+Quer saber mais? Aqui tem um artigo mega bacana sobre os desafios de se lidar com esse tipo de cenário.
 
+- Link: https://www.alura.com.br/artigos/prop-drilling-no-react-js
+
+- Exemplo:
+    - react-app_39
 
 
 
