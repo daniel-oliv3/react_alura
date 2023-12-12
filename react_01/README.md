@@ -958,9 +958,27 @@ Por fim, basta adicionar ao `App.js`
     - react-app_44
 
 
+### 45 - Para saber mais: criando conta no GitHub
 
+**Para saber mais: criando conta no GitHub**
 
+- GitHub:
+    - Link: https://github.com/
 
+- Exemplo:
+    - react-app_45
+
+    
+
+### 46 - Para saber mais: criando conta na Vercel
+
+**Para saber mais: criando conta na Vercel**
+
+- Vercel:
+    - Link: https://vercel.com/
+
+- Exemplo:
+    - react-app_45
 
 
 
