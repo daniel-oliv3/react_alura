@@ -33,5 +33,81 @@ npm start
     - react-app_52
 
 
+### 53 - Clonando o repositório
+
+**Clonando o repositório**
+
+- Exemplo:
+    - react-app_53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
