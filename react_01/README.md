@@ -977,11 +977,17 @@ Por fim, basta adicionar ao `App.js`
 - Vercel:
     - Link: https://vercel.com/
 
+
 - Exemplo:
     - react-app_45
 
 
 ### 47 - Publicando a aplicação
+
+**Projeto**
+
+- Vercel:
+    - Link: https://organo-iota-three.vercel.app/
 
 - Exemplo:
     - react-app_47
