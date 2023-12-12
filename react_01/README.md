@@ -1039,6 +1039,12 @@ Assim, você conseguiu criar uma aplicação do zero até o deploy
     - react-app_51
 
 
+- Links Extras
+    - React Mui: https://mui.com/
+    - Ant Design React: https://ant.design/docs/react/introduce
+
+- React com TypeScript:
+    - TypeScript: https://www.alura.com.br/formacao-react-ts
 
 
 
