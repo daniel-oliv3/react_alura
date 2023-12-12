@@ -173,8 +173,18 @@ npm start
 
 
 
+### 57 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu:
+  - Como clonar um projeto;
+  - A diferença entre clone e fork;
+  - Como instalar dependências de um projeto;
+  - Como rodar um projeto.
+
+- Exemplo:
+    - react-app_57
 
 
 
