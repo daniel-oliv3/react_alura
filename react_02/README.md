@@ -7,6 +7,10 @@
 </p>
 
 
+##
+### Parte 1
+##
+
 
 ### 52 - Apresentação
 
@@ -188,12 +192,18 @@ npm start
 
 
 
+##
+### Parte 2
+##
 
 
+### 58 - Projeto da aula anterior
+
+**Projeto da aula anterior**
 
 
-
-
+- Exemplo:
+    - react-app_58
 
 
 
