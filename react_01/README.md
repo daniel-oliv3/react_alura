@@ -1031,9 +1031,12 @@ Assim, você conseguiu criar uma aplicação do zero até o deploy
     - react-app_50
 
 
+### 51 - Conclusão
 
+**Conclusão**
 
-
+- Exemplo:
+    - react-app_51
 
 
 
