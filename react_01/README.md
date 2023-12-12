@@ -968,7 +968,7 @@ Por fim, basta adicionar ao `App.js`
 - Exemplo:
     - react-app_45
 
-    
+
 
 ### 46 - Para saber mais: criando conta na Vercel
 
@@ -981,7 +981,10 @@ Por fim, basta adicionar ao `App.js`
     - react-app_45
 
 
+### 47 - Publicando a aplicação
 
+- Exemplo:
+    - react-app_47
 
 
 
