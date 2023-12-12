@@ -124,10 +124,52 @@ npm install
 
 
 
+### 56 - Faça como eu fiz: do clone ao start
 
+**Faça como eu fiz: do clone ao start**
 
+Faça um clone do repositório, instale as dependências e rode o projeto.
 
+- Opinião do instrutor
 
+Para clonar o repositório, devemos utilizar o comando `git clone`, apontando para o repositório oficial ou para o seu repositório, caso você tenha feito o `fork` do repositório.
+
+```
+git clone https://github.com/daniel-oliv3/organo // ou a URL do seu repositório
+```
+
+- Após isto, devemos entrar na pasta criada:
+
+```
+cd organo
+```
+
+- E instalar as dependências, com yarn:
+
+```
+yarn
+```
+
+- Ou com npm:
+
+```
+npm install
+```
+
+- Após a instalação, devemos rodar o projeto com o script start, com yarn:
+
+```
+yarn start
+```
+
+- Ou com npm:
+
+```
+npm start 
+```
+
+- Exemplo:
+    - react-app_56
 
 
 
