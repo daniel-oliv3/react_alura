@@ -927,10 +927,23 @@ Por fim, basta adicionar ao `App.js`
     - react-app_41
 
 
+##
+### Parte 5
+##
+
+
+### 42 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react-app_42
 
 
 
+### 43 - Nem tudo são flores
 
+**Nem tudo são flores**
 
-
-
+- Exemplo:
+    - react-app_43
