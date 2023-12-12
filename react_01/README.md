@@ -950,9 +950,12 @@ Por fim, basta adicionar ao `App.js`
 
 
 
+### 44 - Depurando código
 
+**Depurando código**
 
-
+- Exemplo:
+    - react-app_44
 
 
 
