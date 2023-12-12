@@ -1015,11 +1015,20 @@ Por fim, basta adicionar ao `App.js`
     - react-app_49
 
 
+### 50 - Parabéns!
 
+**Parabéns!**
 
+Você criou uma aplicação inteira do zero, o Organo:
 
+- Iniciou o projeto do zero com o `npx create-react-app`;
+- Criou e utilizou todos os componentes;
+- Publicou o resultado final na Vercel.
 
+Assim, você conseguiu criar uma aplicação do zero até o deploy
 
+- Exemplo:
+    - react-app_50
 
 
 
