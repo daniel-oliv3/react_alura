@@ -52,14 +52,14 @@ Git é a ferramenta utilizada pelos desenvolvedores para controlar as versões d
 
 
 <p align="center">
-  <img alt="...." src="./src/aula1-imagem1.png" width="70%">
+  <img alt="...." src="./src/aula1-imagem1.png" width="50%">
 </p>
 
 
 Você pode ter algo assim:
 
 <p align="center">
-  <img alt="...." src="./src/aula1-imagem2.png" width="70%">
+  <img alt="...." src="./src/aula1-imagem2.png" width="50%">
 </p>
 
 
