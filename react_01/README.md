@@ -984,7 +984,7 @@ Por fim, basta adicionar ao `App.js`
 
 ### 47 - Publicando a aplicação
 
-**Projeto**
+**Publicando a aplicação**
 
 - Vercel:
     - Link: https://organo-iota-three.vercel.app/
@@ -993,15 +993,26 @@ Por fim, basta adicionar ao `App.js`
     - react-app_47
 
 
+### 48 - Projeto final do curso
+
+**Projeto final do curso**
+
+- Exemplo:
+    - react-app_48
 
 
+### 49 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+    - Ler e interpretar mensagens de erro;
+    - Corrigir erros;
+    - Depurar o seu código com o `debugger`.
 
 
-
-
-
-
-
+- Exemplo:
+    - react-app_49
 
 
 
