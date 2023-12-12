@@ -52,14 +52,14 @@ Git é a ferramenta utilizada pelos desenvolvedores para controlar as versões d
 
 
 <p align="center">
-  <img alt="...." src="./src/aula1-imagem1.png" width="50%">
+  <img alt="...." src="./src/aula1-imagem1.png" width="30%">
 </p>
 
 
 Você pode ter algo assim:
 
 <p align="center">
-  <img alt="...." src="./src/aula1-imagem2.png" width="50%">
+  <img alt="...." src="./src/aula1-imagem2.png" width="30%">
 </p>
 
 
@@ -110,7 +110,17 @@ Agora que você sabe mais sobre estes termos, fique a vontade para fazer um clon
 
 
 
+### 55 - Instalando dependências
 
+**Instalando dependências**
+
+- NPM (Node Package Maneger)
+```
+npm install
+```
+
+- Exemplo:
+    - react-app_55
 
 
 
