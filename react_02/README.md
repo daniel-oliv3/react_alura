@@ -206,7 +206,19 @@ npm start
     - react-app_58
 
 
+### 59 - Biblioteca x Framework
 
+**Biblioteca x Framework**
+
+- React = `Biblioteca`
+
+- Biblioteca 
+    - Menor
+- Framework
+    - Mais robusto
+
+- Exemplo:
+    - react-app_59
 
 
 
