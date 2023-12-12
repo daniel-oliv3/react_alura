@@ -819,8 +819,94 @@ Quer saber mais? Aqui tem um artigo mega bacana sobre os desafios de se lidar co
     - react-app_39
 
 
+### 40 - Desafio: componente do rodapé
 
+**Desafio: componente do rodapé**
 
+Chegou a sua hora de brilhar.
+
+Vamos construir o componente do rodapé, que precisa ser assim:
+
+<p align="center">
+  <img alt="...." src="./src/add.png" width="70%">
+</p>
+
+- Opinião do instrutor
+
+Vamos então ao componente?
+
+Lembre-se que existem várias formas se atingir o mesmo resultado, aqui segue o gabarito de uma delas:
+
+- O rodapé:
+
+```js
+//src/componentes/Rodape/index.js
+
+import './rodape.css'
+
+const Rodape = () => {
+    return (<footer className="footer">
+        <section>
+            <ul>
+                <li>
+                    <a href="facebook.com" target="_blank">
+                        <img src="/imagens/facebook.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="twitter.com" target="_blank">
+                        <img src="/imagens/twitter.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="instagram.com" target="_blank">
+                        <img src="/imagens/instagram.png" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img src="/imagens/logo.png" alt="" />
+        </section>
+        <section>
+            <p>
+                Desenvolvido por Alura.
+            </p>
+        </section>
+    </footer>)
+}
+
+export default Rodape
+```
+
+- E o seu CSS:
+
+```css
+/* src/componentes/Rodape/index.js */
+
+.footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+```
+
+Por fim, basta adicionar ao `App.js`
+
+- Exemplo:
+    - react-app_40
 
 
 
