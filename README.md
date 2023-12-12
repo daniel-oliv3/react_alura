@@ -8,5 +8,8 @@
 
 ### 1 - React: desenvolvendo com JavaScript
 
+### 2 - React: como os componentes funcionam
+
+
 
 
