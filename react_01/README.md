@@ -911,3 +911,26 @@ Por fim, basta adicionar ao `App.js`
 
 
 
+
+
+### 41 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+    - Manipular e transformar arrays de objetos;
+    - Filtrar itens de um array;
+    - Renderização condicional.
+
+
+- Exemplo:
+    - react-app_41
+
+
+
+
+
+
+
+
+
