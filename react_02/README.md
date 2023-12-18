@@ -325,9 +325,12 @@ Então as chaves, os parênteses ou nada têm significado neste caso, e você ag
 
 
 
+### 62 - Criando o botão deletar
 
+**Criando o botão deletar**
 
-
+- Exemplo:
+    - react-app_62
 
 
 
