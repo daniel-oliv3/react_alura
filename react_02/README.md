@@ -369,3 +369,61 @@ npm install react-icons --save
 
 
 
+### 65 - Faça como eu fiz: instalar novas dependências
+
+**Faça como eu fiz: instalar novas dependências**
+
+Precisamos de um ícone para o nosso botão de deletar, instale o pacote `react-icons` e importe o ícone `AiFillCloseCircle` no arquivo `src/componentes/Colaborador/index.js`.
+
+- Opinião do instrutor
+
+Para instalar o pacote, execute no terminal:
+
+```
+npm install react-icons
+```
+
+E para importar o componente, coloque nas primeiras linhas do arquivo `src/componentes/Colaborador/index.js`:
+
+```js
+import { AiFillCloseCircle } from 'react-icons/ai';
+```
+
+Lembrando que as chaves significam que o export não é default, ou seja, dentro de `react-icons/ai` contém vários exports, não somente este ícone, e no pacote react-icons, a pasta do ícone que queremos é sempre a pasta que tem as mesmas letras do começo do nosso ícone, ou seja, o componente `AiFillCloseCircle` está dentro da pasta `ai`.
+
+- Exemplo:
+    - react-app_65
+
+
+##
+### Parte 3
+##
+
+
+### 66 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu:
+    - Como criar uma nova prop;
+    - Como passar esta prop para inúmeros componentes;
+    - O que é uma closure e como utilizá-la a seu favor;
+    - Como instalar novas dependências na sua aplicação;
+    - Diferença entre export e export default.
+
+- Exemplo:
+    - react-app_66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
