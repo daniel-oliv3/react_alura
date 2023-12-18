@@ -425,7 +425,12 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
     - react-app_67
 
 
+### 68 - Criando input de cor
 
+**Criando input de cor**
+
+- Exemplo:
+    - react-app_68
 
 
 
