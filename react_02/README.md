@@ -355,6 +355,15 @@ Você estava passando a prop `aoDeletar` para seus componentes, mas a função n
 
 **Importando ícone de deletar**
 
+- React Icons:
+    - Site: https://react-icons.github.io/react-icons/
+
+- Instalar o react icons
+
+```
+npm install react-icons --save
+```
+
 - Exemplo:
     - react-app_64
 
