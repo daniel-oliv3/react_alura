@@ -395,9 +395,6 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
     - react-app_65
 
 
-##
-### Parte 3
-##
 
 
 ### 66 - O que aprendemos?
@@ -415,9 +412,17 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
     - react-app_66
 
 
+##
+### Parte 3
+##
 
 
+### 67 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react-app_67
 
 
 
