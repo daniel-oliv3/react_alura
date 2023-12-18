@@ -443,7 +443,20 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
     - react-app_69
 
 
+### 70 - Mudando a cor dos times
 
+**Mudando a cor dos times**
+
+- Por que precisamos transformar a constante times em um state para mudar a cor?
+    - A: Mudamos porque só assim o React “escuta a mudança”.
+        - `Isso aí! Com o setState o React fica ciente que aquele pedaço pode ser mudado, e assim que ele é mudado, o React atualiza a tela por nós.`
+    - B: Pois o state nos dá a função setState para mudar o valor da variável.
+    - C: Pois só assim conseguimos mudar a variável de cor.
+    - D: Com o state fica mais fácil de mudar.
+
+
+- Exemplo:
+    - react-app_70
 
 
 
