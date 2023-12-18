@@ -435,5 +435,37 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
 
 
 
+### 69 - Criando o state times
+
+**Criando o state times**
+
+- Exemplo:
+    - react-app_69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
