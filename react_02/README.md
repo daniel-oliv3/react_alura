@@ -333,14 +333,30 @@ Então as chaves, os parênteses ou nada têm significado neste caso, e você ag
     - react-app_62
 
 
+### 63 - Passando props
+
+**Passando props**
+
+Você estava passando a prop `aoDeletar` para seus componentes, mas a função não estava sendo executada no evento de click. Após pesquisas, percebeu que a prop `aoDeletar` estava `undefined`. Qual o possível motivo deste problema?
+
+- Selecione uma alternativa
+    - A: A função está com um nome diferente no componente que tem a função.
+    - B: A função não tem retorno.
+    - C: A função não está sendo criada no componente que quer usar.
+    - D: A função não está sendo passada em todos os componentes acima do que você quer utilizar.
+        - `Isso aí! Muito provavelmente, caso o seu componente esteja muito abaixo na árvore, você não está passando a função para todos os componentes!`
 
 
+- Exemplo:
+    - react-app_63
 
 
+### 64 - Importando ícone de deletar
 
+**Importando ícone de deletar**
 
-
-
+- Exemplo:
+    - react-app_64
 
 
 
