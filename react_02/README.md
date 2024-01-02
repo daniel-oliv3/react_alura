@@ -459,7 +459,37 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
     - react-app_70
 
 
+### 71 - Mudando o background
 
+**Mudando o background**
+
+- hex-to-rgba
+    - Link: https://www.npmjs.com/package/hex-to-rgba
+
+
+- Installation
+```
+npm i hex-to-rgba
+```
+
+- Usage
+```js
+import hexToRgba from 'hex-to-rgba';
+```
+
+- Imperatividade
+```js
+//muda o primeiro card para red, console google chrome
+document.querySelector('.colaborador').querySelector('.cabecalho').style.backgroundColor = 'red';
+```
+
+<p align="center">
+  <img alt="...." src="./src/virtualdom.jpg" width="80%">
+</p>
+
+
+- Exemplo:
+    - react-app_71
 
 
 
