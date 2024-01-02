@@ -567,6 +567,12 @@ import { v4 as uuidv4 } from 'uuid';
     - react-app_75
 
 
+### 76 - Deletando um colaborador
+
+**Deletando um colaborador**
+
+- Exemplo:
+    - react-app_76
 
 
 
