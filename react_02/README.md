@@ -544,6 +544,28 @@ Como o React escuta uma mudança e porque precisamos de um state para isto;
     - react-app_74
 
 
+### 75 - Criando ids
+
+**Criando ids**
+
+- uuid
+    - Link: https://www.npmjs.com/package/uuid
+
+
+- Install, terminal
+```
+npm i uuid
+```
+
+- Create a UUID (ES6 module syntax)
+```
+import { v4 as uuidv4 } from 'uuid';
+```
+
+
+- Exemplo:
+    - react-app_75
+
 
 
 
