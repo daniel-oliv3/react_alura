@@ -531,8 +531,17 @@ Como o React escuta uma mudança e porque precisamos de um state para isto;
     - react-app_73
 
 
+##
+### Parte 4
+##
 
 
+### 74 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react-app_74
 
 
 
