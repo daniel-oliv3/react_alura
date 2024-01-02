@@ -518,8 +518,17 @@ Neste momento o React tem uma “cópia” da árvore antes do evento e o “can
     - react-app_72
 
 
+### 73 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu:
+- O que é Virtual DOM;
+Como o React escuta uma mudança e porque precisamos de um state para isto;
+- Diferença de imperatividade e declaratividade.
+
+- Exemplo:
+    - react-app_73
 
 
 
