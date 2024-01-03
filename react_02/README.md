@@ -793,10 +793,20 @@ OBS: na função, o que aparecerá na tela é o return, então não esqueça de 
 
 
 
+### 85 - Refatoração
 
+**Refatoração**
 
+Você está criando uma nova forma de renderizar um `CampoTexto` e percebe que o nome não faz mais sentido para este componente, mas o funcionamento do componente não irá mudar, então você decide não refatorá-lo. Por que isto seria um problema?
 
+- A: - Isto nunca será um problema.
+- B: - Pois ficará mais difícil de outros desenvolvedores entenderem o componente.
+    -   `Isso! Mesmo que você saiba o que o componente faz, os outros desenvolvedores do seu time precisam saber que o componente faz algo novo agora, e o nome dele e das variáveis dentro dele são essenciais para isto!`
+- C: - Pois assim o componente poderá dar problemas no futuro.
+- D: - Pois assim o componente perderá o sentido.
 
+- Exemplo:
+    - react-app_85
 
 
 
