@@ -53,3 +53,18 @@ npm start
     - react_cine-tag_90
 
 
+### 91 - Preparando o ambiente
+
+**Preparando o ambiente**
+
+- Visual Studio Code:
+    - Link: https://code.visualstudio.com/Download
+- Google Chrome
+    - Link: https://www.google.com/intl/pt-BR/chrome/
+
+- Exemplo:
+    - react_cine-tag_91
+
+
+
+
