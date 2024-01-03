@@ -8,7 +8,7 @@
 
 
 ##
-### Parte 1
+### Parte 1 - Uma biblioteca declarativa
 ##
 
 
@@ -287,7 +287,7 @@ export default CampoTexto
 
 
 ##
-### Parte 2
+### Parte 2 - Trabalhando com props
 ##
 
 
@@ -466,7 +466,7 @@ Ouvimos elementos disparados pelo DOM: o `onSubmit` do nosso `form`.
 
 
 ##
-### Parte 3
+### Parte 3 - Interagindo com o usuário
 ##
 
 
@@ -708,7 +708,7 @@ Trabalhar com `props` que são funções.
 
 
 ##
-### Parte 4
+### Parte 4 - Montando os times
 ##
 
 
@@ -928,7 +928,7 @@ Por fim, basta adicionar ao `App.js`
 
 
 ##
-### Parte 5
+### Parte 5 - Caça aos bugs
 ##
 
 
