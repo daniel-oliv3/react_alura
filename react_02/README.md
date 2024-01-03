@@ -817,3 +817,45 @@ Você está criando uma nova forma de renderizar um `CampoTexto` e percebe que o
 - Exemplo:
     - react-app_86
 
+
+### 87 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu:
+    - Como criar um ternário para renderizar de forma opcional;
+    - Como renderizar condicionais de outras formas;
+    - Como refatorar um componente sem atrapalhar a execução primária dele;
+    - A importância de se refatorar um componente em projetos React.
+
+
+- Exemplo:
+    - react-app_87
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
