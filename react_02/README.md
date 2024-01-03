@@ -575,7 +575,29 @@ import { v4 as uuidv4 } from 'uuid';
     - react-app_76
 
 
+### 77 - Passando parâmetros para um evento
 
+**Passando parâmetros para um evento**
+
+Em um determinado momento, você tenta passar parâmetros para uma função diretamente, ficando um código assim:
+
+```js
+<AiFillCloseCircle size={25} className="deletar" onClick={aoDeletar(colaborador.id)} />
+```
+
+Selecione a opção que exibe o código executado"?
+
+- Selecione uma alternativa
+
+- A: - O componente executa a função assim que renderiza, deletando o colaborador.
+    - `Isso aí! Com esta sintaxe você está pretendendo passar o resultado da função, não a função que deveria ser executada! Isto deletará o componente assim que renderizado!`
+- B: - O componente ainda não foi renderizado, então aoDeletar ainda não existe.
+- C: - O React não aceita isto e retorna um erro.
+- D: - O onClick não aceita isto e retorna um erro.
+
+
+- Exemplo:
+    - react-app_77
 
 
 
