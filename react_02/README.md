@@ -677,9 +677,12 @@ Da segunda forma, criamos uma função, atribuímos um nome à ela e referenciam
 - Exemplo:
     - react-app_81
 
+### 82 - Refatorando o formulário
 
+**Refatorando o formulário**
 
-
+- Exemplo:
+    - react-app_82
 
 
 
