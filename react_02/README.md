@@ -686,7 +686,15 @@ Da segunda forma, criamos uma função, atribuímos um nome à ela e referenciam
 
 
 
+### 83 - Criando favorito
 
+**Criando favorito**
+
+- React Icons
+    - Link: https://react-icons.github.io/react-icons/
+
+- Exemplo:
+    - react-app_83
 
 
 
