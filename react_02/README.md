@@ -8,7 +8,7 @@
 
 
 ##
-### Parte 1
+### Parte 1 - Importando o GitHub
 ##
 
 
@@ -193,7 +193,7 @@ npm start
 
 
 ##
-### Parte 2
+### Parte 2 - O que são componentes
 ##
 
 
@@ -413,7 +413,7 @@ Lembrando que as chaves significam que o export não é default, ou seja, dentro
 
 
 ##
-### Parte 3
+### Parte 3 - Como o react vê um componente
 ##
 
 
@@ -532,7 +532,7 @@ Como o React escuta uma mudança e porque precisamos de um state para isto;
 
 
 ##
-### Parte 4
+### Parte 4 - Criando funcionalinades
 ##
 
 
@@ -665,11 +665,17 @@ Da segunda forma, criamos uma função, atribuímos um nome à ela e referenciam
     - react-app_80
 
 
+##
+### Parte 5 - Finalizando o projeto
+##
 
 
+### 81 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
-
+- Exemplo:
+    - react-app_81
 
 
 
