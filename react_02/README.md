@@ -652,8 +652,17 @@ Da segunda forma, criamos uma função, atribuímos um nome à ela e referenciam
 
 
 
+### 80 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu:
+    - A diferença entre two-way data binding e one-way data binding;
+    - Por que o React utiliza one-way data binding;
+    - Por que utilizar id é importante no React.
+
+- Exemplo:
+    - react-app_80
 
 
 
