@@ -10,6 +10,8 @@
 
 ### 2 - React: como os componentes funcionam
 
+### 3 - React: praticando React com Js
+
 
 
 
