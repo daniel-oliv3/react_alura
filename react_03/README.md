@@ -6,6 +6,12 @@
   <img alt="...." src="./src/reactjs_logo_icon_170805.png" width="70%">
 </p>
 
+
+##
+### Parte 1 - Primeiros passos
+##
+
+
 ### 1 - Apresentação
 
 **Apresentação**
@@ -148,9 +154,18 @@ npm start
 
 
 
+### 94 - Navegando entre páginas
 
+**Navegando entre páginas**
 
+- React Router Dom
 
+```
+npm install react-router-dom
+```
+
+- Exemplo:
+    - react_cine-tag_94
 
 
 
