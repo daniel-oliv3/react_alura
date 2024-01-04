@@ -74,7 +74,73 @@ npm start
     - react_cine-tag_92
 
 
+### 93 - Preparando arquivos
 
+**Preparando arquivos**
+
+- Figma:
+    - Link: https://www.figma.com/file/UtiurQgr5yH1ClbLzDqVHl/2802---React%3A-Praticando-React-com-Js?type=design&node-id=12-2&mode=design&t=3o5GRM1PpvfMHAMv-0
+
+
+- jsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": [
+        "src"
+    ]
+}
+```
+
+- db.json
+
+```json
+[
+    {
+        "id": 1,
+        "titulo": "O labirinto do Logcat",
+        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
+        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
+    },
+    {
+        "id": 2,
+        "titulo": "Um componente no espaço",
+        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
+        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
+    },
+    {
+        "id": 3,
+        "titulo": "O poderoso JavaScript",
+        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
+        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
+    },
+    {
+        "id": 4,
+        "titulo": "Dart, o Caçador de Andróides",
+        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
+        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
+    }
+]
+```
+
+- Google Fonts
+    - Link: https://fonts.google.com/
+    - Montserrat: https://fonts.google.com/specimen/Montserrat?query=mont
+
+
+- Head HTML
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+```
+
+- Exemplo:
+    - react_cine-tag_93
 
 
 
