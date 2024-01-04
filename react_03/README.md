@@ -197,7 +197,9 @@ Você acabou de conhecer o pacote React-router-dom para criar a navegação entr
     </Routes>
 </BrowserRouter>
 ```
-    - `O componente BrowserRouter é responsável por informar a nossa aplicação que teremos um roteamento de componentes a seguir, o Routes é o próprio roteador e o Route é a rota em específico`
+
+- O componente BrowserRouter é responsável por informar a nossa aplicação que teremos um roteamento de componentes a seguir, o Routes é o próprio roteador e o Route é a rota em específico
+
 
 - C:
 ```js
@@ -211,8 +213,6 @@ Você acabou de conhecer o pacote React-router-dom para criar a navegação entr
 
 
 
-
-```
 
 - Exemplo:
     - react_cine-tag_95
