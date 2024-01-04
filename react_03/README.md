@@ -172,7 +172,50 @@ npm install react-router-dom
 
 
 
+### 95 - React-router-dom
 
+**React-router-dom**
+
+Você acabou de conhecer o pacote React-router-dom para criar a navegação entre páginas do CineTag. Se você estivesse iniciando outro projeto, qual seria a estrutura correta para conseguir declarar rotas utilizando o pacote em sua versão 6, que é usada durante esse treinamento?
+
+- Selecione uma alternativa
+
+- A:
+```js
+<Routes>
+    <BrowserRouter>
+        <Route path="/" element={<Inicio />} />
+    </BrowserRouter>
+</Routes>
+```
+
+- B:
+```js
+<BrowserRouter>
+    <Routes>
+        <Route path="/" element={<Inicio />} />
+    </Routes>
+</BrowserRouter>
+```
+    - `O componente BrowserRouter é responsável por informar a nossa aplicação que teremos um roteamento de componentes a seguir, o Routes é o próprio roteador e o Route é a rota em específico`
+
+- C:
+```js
+<BrowserRouter>
+    <Route>
+        <Routes path="/" element={<Inicio />} />
+    </Route>
+</BrowserRouter>
+```
+
+
+
+
+
+```
+
+- Exemplo:
+    - react_cine-tag_95
 
 
 
