@@ -340,7 +340,12 @@ Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar c
 - Exemplo:
     - react_cine-tag_98
 
+### 99 - Resolução do desafio
 
+**Resolução do desafio**
+
+- Exemplo:
+    - react_cine-tag_99
 
 
 
