@@ -244,7 +244,7 @@ O React por padrão suporta esse tipo de CSS sem precisar instalar, utilizando o
 
 ```css
 .confirmar {
-background-color: green
+    background-color: green
 }
 ```
 
@@ -274,7 +274,71 @@ Agora mudando de assunto: sempre que você quiser ir mais fundo nas questões de
     - react_cine-tag_97
 
 
+### 98 - Desafio: criando componentes
 
+**Desafio: criando componentes**
+
+Durante essa aula você aprendeu a criar seu primeiro componente do projeto e a estilizá-lo. Que tal se desafiar e usar esses conhecimentos para criar o rodapé? Para te guiar, segue os passos que devem ser feitos:
+
+- Criar a pasta referente ao rodapé;
+- Criar o arquivo index e CSS;
+- Programar o HTML do componente;
+- Estilizar com CSS;
+- Aplicar na página inicial.
+
+Agora é com você! Se precisar de ajuda, você pode consultar a resolução desse desafio clicando no botão “Opinião do instrutor” logo abaixo.
+
+
+- Opinião do instrutor
+
+Olá, estudante! Espero que tenha conseguido dar andamento na criação do seu Rodapé. No meu projeto, eu construí ele seguindo a estrutura do cabeçalho. Dentro do arquivo index.js eu fiz o padrão de criar a função e retornar os elementos html necessários, além de declarar o import do CSS e o export do componente:
+
+```js
+import styles from './Rodape.module.css';
+
+function Rodape() {
+    return (
+        <footer className={styles.rodape}>
+            <h2>Desenvolvido por Alura.</h2>
+        </footer>
+    )
+}
+
+export default Rodape;
+```
+
+Já para estilizar, eu inseri dentro do arquivo `./Rodape.module.css` o seguinte código:
+
+
+```css
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto);
+}
+
+.rodape h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--branco);
+}
+```
+
+Onde transformo o rodapé em `display flex`, fazendo-o ocupar todo espaço ao fim da página e centralizar o texto com o `justify-content: center`. Depois, pintei o fundo usando a variável `--preto` que é a cor preta. Por fim, coloquei o peso da fonte como 400 deixando ela mais fina, usei o tamanho da fonte 18px e a cor do texto como branca.
+
+Agora é só colocar o componente `<Rodapé>` na página que você precisa incluir! Não esquecendo de fazer o import dele:
+
+```js
+import Rodape from "componentes/Rodape";
+```
+
+Tanto os trechos de HTML quanto de CSS podem variar na sua solução por não serem a única maneira de serem feitos, portanto nesse quesito pode relaxar. O importante é conseguir criar o componente e usar na página.
+
+Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar com dúvidas? Ensinar é a melhor maneira de aprender!
+
+
+- Exemplo:
+    - react_cine-tag_98
 
 
 
