@@ -500,7 +500,16 @@ Qual maneira a seguir possibilita renderizar o componente Card para cada música
     - react_cine-tag_107
 
 
+### 108 - Nova rota
 
+**Nova rota**
+
+- URLs
+- http://localhost:3000/
+- http://localhost:3000/favoritos
+
+- Exemplo:
+    - react_cine-tag_108
 
 
 
