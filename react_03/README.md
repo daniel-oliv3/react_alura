@@ -365,9 +365,17 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_100
 
 
+##
+### Parte 2 - Criando componentes
+##
 
 
+### 101 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react_cine-tag_101
 
 
 
