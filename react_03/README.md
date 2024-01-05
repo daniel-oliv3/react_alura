@@ -403,18 +403,39 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_104
 
 
+### 105 - Para saber mais: propriedades dos componentes
+
+**Para saber mais: propriedades dos componentes**
+
+Durante o desenvolvimento do projeto CineTag estamos passando informações das páginas para os componentes através de propriedades. Por exemplo para definir qual imagem vai aparecer no banner:
+
+```js
+<Banner imagem="home"></Banner>
+```
+
+- Ou qual texto irá aparecer no título:
+
+```js
+<Titulo>Um lugar para guardar seus vídeos e filmes!</Titulo>
+```
+
+No React chamamos essas propriedades de props.
+
+- O que são props?
+
+Props são propriedades de uma classe ou função JavaScript que podem ser passados aos seus componentes filhos. É possível enviar como “prop” diferentes tipos de dados e até mesmo outros componentes. É fundamental na criação de componentes por ser o meio de comunicação entre eles.
+
+Mas perceba que enviamos propriedades de duas maneiras diferentes. A segunda maneira, onde inserimos o texto do componente título, é chamada de props.children.
+
+- O que é props.children?
+
+A `props.children` (propriedade filha) é uma propriedade especial do React que contém qualquer elemento filho definido no componente. Ela é usada para exibir o que você inclui entre as tags de abertura e fechamento ao chamar um componente.
+
+A documentação do React diz que você pode usar props.children em componentes que são genéricos, que não tem filhos pré-determinados, flexibilizando o uso do componente. Podemos ver no nosso `<Titulo>` que dependendo de onde ele for usado você pode definir como `<h1>`, `<h2>`, `<h3>`, entre outros.
 
 
-
-
-
-
-
-
-
-
-
-
+- Exemplo:
+    - react_cine-tag_105
 
 
 
