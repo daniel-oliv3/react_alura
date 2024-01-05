@@ -218,7 +218,17 @@ Você acabou de conhecer o pacote React-router-dom para criar a navegação entr
     - react_cine-tag_95
 
 
+### 96 - Componentização
 
+**Componentização**
+
+
+- URLs
+- http://localhost:3000/
+- http://localhost:3000/favoritos
+
+- Exemplo:
+    - react_cine-tag_96
 
 
 
