@@ -348,7 +348,21 @@ Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar c
     - react_cine-tag_99
 
 
+### 100 - O que aprendemos?
 
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+- Analisar Figma;
+- Criar um projeto React;
+- Identificar arquivos que podem ser removidos da base do projeto React;
+- Configurar diretório utilizado no curso com o jsconfig.json;
+- Criar componentes (Cabecalho e CabecalhoLink);
+- Estilizar componentes com módulo CSS;
+- Praticar a criação de componentes (Rodapé).
+
+- Exemplo:
+    - react_cine-tag_100
 
 
 
