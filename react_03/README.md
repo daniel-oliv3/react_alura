@@ -379,13 +379,28 @@ Nessa aula, você aprendeu como:
 
 
 
+### 102 - Banner
+
+**Banner**
+
+- Exemplo:
+    - react_cine-tag_102
 
 
+### 103 - Titulo
+
+**Titulo**
+
+- Exemplo:
+    - react_cine-tag_103
 
 
+### 104 - Cards
 
+**Cards**
 
-
+- Exemplo:
+    - react_cine-tag_104
 
 
 
