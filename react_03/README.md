@@ -447,15 +447,57 @@ A documentação do React diz que você pode usar props.children em componentes 
 
 
 
+### 107 - Listando cards
+
+**Listando cards**
+
+O CineTag, no futuro, pretende fornecer uma área para armazenar trilhas sonoras dos filmes e permitir o acesso a usuários da plataforma. Para isso, foi criado a seguinte lista de músicas:
+
+```json
+{
+    "musicas": [
+    {
+        "id": 1,
+        "titulo": "The Power of React",
+        "link": "https://www.youtube.com/watch?v=DJwirHviKms"
+    },
+    {
+        "id": 2,
+        "titulo": "My Component Will Go On",
+        "link": "https://www.youtube.com/watch?v=oSnIRlvFEnA"
+    },
+}
+```
+
+Qual maneira a seguir possibilita renderizar o componente Card para cada música dessa lista?
+
+- Selecione uma alternativa
 
 
+- A: - Alternativa
+```js
+{musicas.map((musica) => (
+    <Card (...musica) key={musica.id} />
+))}
+```
 
+- B: - Alternativa
+```js
+{musicas.map((musica) => (
+    <Card {...musica} key={musica.id} />
+))}
+```
+`Nesse trecho de código foi usado o método .map. Esse método percorre a lista e retorna um card para cada item. Dentro do card foi enviado o valor de {...musica}, uma expressão chamada de destructuring (desestruturação) que descompactou o item para ser enviado cada uma das propriedades dele (id, titulo, link).`
 
+- C: - Alternativa
+```js
+{musicas.map((musica) => (
+    <Card {...musicas} key={musica.id} />
+))}
+```
 
-
-
-
-
+- Exemplo:
+    - react_cine-tag_107
 
 
 
