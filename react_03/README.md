@@ -232,7 +232,46 @@ Você acabou de conhecer o pacote React-router-dom para criar a navegação entr
 
 
 
+### 97 - Para saber mais: CSS com módulos?
 
+**Para saber mais: CSS com módulos?**
+
+Durante a criação dos arquivos do projeto você se deparou com arquivos com nome como `CabecalhoLink.module.css` e `Cabecalho.module.css`. Mas o que quer dizer esse module?
+
+Um módulo CSS é um arquivo CSS no qual todos os nomes de classe têm escopo local por padrão. Dessa maneira, você pode reutilizar nomes de classes em arquivos diferentes sem acontecer conflitos. Por exemplo: eu posso usar a classe container em vários componentes e pra cada container ter um estilo diferente.
+
+O React por padrão suporta esse tipo de CSS sem precisar instalar, utilizando o padrão para nome de arquivos `[nome].module.css`. Agora, imagine que queremos trocar a cor de um botão de confirmação para verde, você irá dentro do arquivo `Botao.module.css` e definir a cor como verde:
+
+```css
+.confirmar {
+background-color: green
+}
+```
+
+Ai no arquivo que tem o botão, você vai precisar importar o arquivo CSS já dando um nome pra ele:
+
+```js
+import styles from “./Botao.module.css”
+```
+
+Depois, para utilizar esses estilos você vai seguir o padrão `styles.[nomeDaClasse]`, dessa maneira:
+
+```js
+<button className={styles.confirmar}>
+```
+
+Bacana né? Assim temos um problema a menos para se preocupar, a confusão com o CSS.
+
+Agora mudando de assunto: sempre que você quiser ir mais fundo nas questões de React abordadas durante as aulas, você pode acessar a documentação do React e a documentação oficial do React Router 6, que são nossas melhores amigas.
+
+- Documentação do React
+    - Link: https://pt-br.reactjs.org/docs/getting-started.html
+
+- Documentação oficial do React Router 6
+    - Link: https://reactrouter.com/en/v6.3.0
+
+- Exemplo:
+    - react_cine-tag_97
 
 
 
