@@ -438,9 +438,12 @@ A documentação do React diz que você pode usar props.children em componentes 
     - react_cine-tag_105
 
 
+### 106 - Lista dinâmica
 
+**Lista dinâmica**
 
-
+- Exemplo:
+    - react_cine-tag_106
 
 
 
