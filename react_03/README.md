@@ -601,7 +601,16 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_113
 
 
+### 114 - Hook personalizado
 
+**Hook personalizado**
+
+- React Context Dev  (Extensões)
+
+- Link: https://chromewebstore.google.com/detail/react-context-devtool/oddhnidmicpefilikhgeagedibnefkcf?pli=1
+
+- Exemplo:
+    - react_cine-tag_114
 
 
 
