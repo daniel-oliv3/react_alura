@@ -561,10 +561,25 @@ Para reutilizar os componentes já criados, entre no arquivo da página favorito
 
 
 
+### 111 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+
+- Criar novos componentes;
+- Construir novas rotas;
+- Compartilhar informações entre componentes com props e children;
+- Importar dados de um arquivo json;
+- Usar o método .map para listar componentes.
+
+- Exemplo:
+    - react_cine-tag_111
 
 
-
-
+##
+### Parte 3 - Definindo contexto
+##
 
 
 
