@@ -442,8 +442,15 @@ A documentação do React diz que você pode usar props.children em componentes 
 
 **Lista dinâmica**
 
+- Gato Bonifacio
+    - Link: https://thecatapi.com/api/images/get?format=src&type=png
+    - Link2: https://cdn2.thecatapi.com/images/Qpnkqz6F_b.png
+            
+
+
 - Exemplo:
     - react_cine-tag_106
+
 
 
 
@@ -514,11 +521,43 @@ Qual maneira a seguir possibilita renderizar o componente Card para cada música
 
 
 
+### 109 - Desafio: construindo páginas
+
+**Desafio: construindo páginas**
+
+ocê já criou comigo os arquivos referentes a página de favoritos e agora é com você! Que tal aplicar os componentes já criados que existem nessa página? Alguns detalhes para se lembrar:
+
+- Utilizar o banner e título;
+- Enviar as propriedades adequadas;
+- Criar um card fictício enquanto não temos uma variável de favoritos;
+- Crie uma section pro conteúdo da página.
+
+Se precisar de ajuda, você pode consultar a resolução desse desafio clicando no botão “Opinião do instrutor” logo abaixo.
+
+
+- Opinião do instrutor
+
+Para reutilizar os componentes já criados, entre no arquivo da página favoritos e dentro do return insira: ``` Meus Favoritos ``` Aqui você inseriu o componente de Banner, especificando que a imagem que deve ser impressa é a com nome “favoritos” ao enviar a propriedade imagem. Depois, complementou com o componente Titulo com o texto da página, enviando como uma propriedade filha. Por fim, criou a seção que abrange o conteúdo da página, que são os cards. Ela permite a utilização da centralização do componente Container. E como o conteúdo da página são os cards como foi citado, também colocou um Card com dados fictícios. Essa parte do card em específico é livre para você inserir os valores que desejar nas propriedades id, título e capa. **Conseguiu resolver?** Que tal dar uma olhada no fórum e ajudar quem possa estar com dúvidas? Ensinar é a melhor maneira de aprender!
+
+
+- URLs
+- http://localhost:3000/
+- http://localhost:3000/
 
 
 
 
+- Exemplo:
+    - react_cine-tag_109
 
+
+
+### 110 - Resolução do desafio
+
+**Resolução do desafio**
+
+- Exemplo:
+    - react_cine-tag_110
 
 
 
