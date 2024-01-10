@@ -729,7 +729,6 @@ Resumidamente, o contexto fornece uma maneira de compartilhar valores como esses
 Você pode visualizar a aplicação de Contexts em outro projeto React no Alura da Juliana Negreiros Conhecendo o Context API do React e no curso React: gerenciamento de estados globais com ContextAPI do Luiz Fernando.
 
 
-
 - Documentação do React
     - Link: https://legacy.reactjs.org/docs/context.html
 
@@ -739,9 +738,12 @@ Você pode visualizar a aplicação de Contexts em outro projeto React no Alura 
 
 
 
+### 118 - Favoritar
 
+**Favoritar**
 
-
+- Exemplo:
+    - react_cine-tag_118
 
 
 
