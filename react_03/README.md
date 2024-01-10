@@ -758,18 +758,48 @@ Você pode visualizar a aplicação de Contexts em outro projeto React no Alura 
 
 
 
+### 120 - Para saber mais: Hooks
+
+**Para saber mais: Hooks**
+
+
+O que é um Hook?
+
+Um Hook (em português, gancho) é uma função especial que te permite utilizar recursos do React. Você pode detectar um hook pelo início de seu nome, em que aparece o termo use.
+
+Por exemplo, o useState é um Hook que te permite adicionar um estado a um componente de função. Esse hook é inicializado com duas variáveis: a primeira, que é o valor atual do estado, e a segunda que atualiza o valor.
+
+Note a estrutura de declaração de uma variável de estado utilizando o useState:
+
+```js
+const [favoritos, setFavoritos] = useState([]);
+```
+
+Os nomes que estão entre colchetes não fazem parte do React. Você pode nomear suas próprias variáveis de acordo com o propósito dela.
+
+Esta sintaxe com colchetes é chamada de “atribuição via desestruturação”. Com isso, estamos criando duas variáveis ao mesmo tempo, a favoritos e a setFavoritos., onde favoritos é definido para o primeiro valor retornado por useState, e setFavoritos é o segundo.
+
+Quando declaramos uma variável com useState, ela retorna um par — um array com dois itens. Com a desestruturação, conseguimos atribuir esses itens simultaneamente para as variáveis que criamos.
+
+Você pode aprofundar ainda mais seu conhecimento sobre o hook useState com o instrutor Vinny Neves no Alura Hooks do React: useState.
+
+- Link: https://cursos.alura.com.br/extra/alura-mais/hooks-do-react-usestate-c1530
+
+
+- Exemplo:
+    - react_cine-tag_120
 
 
 
 
+Desafio: ajustando CSS
+PRÓXIMA ATIVIDADE
 
+Ao transformar a página de favoritos em dinâmica, de acordo com o que há dentro do contexto de favoritos, podemos visualizar que ao favoritar mais de um vídeo cada card fica embaixo do outro. Um comportamento que não gostariamos que acontecesse, uma vez que o layout do Figma mostra que cada card deve ficar um ao lado do outro.
 
+Use seus conhecimentos de CSS para ajustar a página. Mesmo que estejamos usando a biblioteca React, ainda utilizamos muito HTML e CSS na construção do projeto, por isso, sempre devemos estar praticando o uso deles.
 
-
-
-
-
-
+Dica: os estilos são semelhantes ao da página inicial.
 
 
 
