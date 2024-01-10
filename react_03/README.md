@@ -749,7 +749,12 @@ Você pode visualizar a aplicação de Contexts em outro projeto React no Alura 
 
 
 
+### 119 - Lista de favoritos
 
+**Lista de favoritos**
+
+- Exemplo:
+    - react_cine-tag_119
 
 
 
