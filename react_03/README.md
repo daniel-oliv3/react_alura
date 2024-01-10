@@ -826,6 +826,8 @@ Em seguida, para construir um espaçamento entre cada página, podemos usar o at
 Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar com dúvidas? Ensinar é a melhor maneira de aprender!
 
 
+- Exemplo:
+    - react_cine-tag_121
 
 
 
@@ -834,10 +836,19 @@ Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar c
 
 
 
+### 122 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+
+- Criar contextos através da ContextAPI com o createContext;
+- Permitir o uso de contextos nos elementos com o Provider e useContext;
+- Construir hooks personalizados;
+- Procurar valores dentro de um array com o método some;
+- Remover itens de um array com o método splice e auxílio do indexOf;
+- Instalar e usar a extensão React Context DevTool.
 
 
-
-
-
-
-
+- Exemplo:
+    - react_cine-tag_122
