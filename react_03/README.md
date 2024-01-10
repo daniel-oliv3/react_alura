@@ -614,7 +614,65 @@ Nessa aula, você aprendeu como:
 
 
 
+### 115 - Desfavoritando filmes
 
+**Desfavoritando filmes**
+
+
+Olá, estudante! 😀
+
+Espero que esteja aprendendo bastante coisa até aqui, já estamos na metade do caminho para ter o projeto cinetag completo e vim deixar um recadinho:
+
+Na linha 30 do arquivo Favoritos.js, aproximadamente, o seguinte trecho abaixo foi desenvolvido durante a aula com o intuito de desfavoritar um filme caso ele já estivesse na lista de favoritos:
+
+```js
+novaLista.splice(novaLista.indexOf(novoFavorito), 1);
+```
+
+Mas ao testar em uma lista de favoritos, sempre o último item é removido. Isso acontece pois o método indexOf() compara o valor que colocamos entre parentêses com os elementos do Array usando igualdade estrita (o mesmo método usado pelo ===, ou triple-equals operator).
+
+Mesmo que dois objetos diferentes possam ter as mesmas propriedades com valores iguais, eles não são considerados iguais quando comparados usando os operadores de igualdade ampla ou estrita (== ou ===). Isso ocorre porque arrays e objetos em JavaScript são comparados por referência. Portanto, o indexOf() não vai funcionar como o desejado.
+
+Algumas das maneiras de resolver esse problema são utilizando o método filter() e findIndex().
+
+
+
+- filter()
+
+Essa foi uma solução passada por algum colega nos depoimentos desse curso.
+
+O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+
+```js
+novaLista = favorito.filter((fav) => fav.id !== novoFavorito.id);
+```
+
+Desse jeito, a variável novaLista será sobrescrita para uma lista com somente os favoritos que não possuiam o id igual ao que estavamos tentando desfavoritar.
+
+- findIndex()
+
+Essa é uma solução apontada pelo colega Ilo Navarro.
+
+O método findIndex() retorna o índice no array do primeiro elemento que satisfizer a as condições dadas. Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
+
+```js
+novaLista.splice(
+      novaLista.findIndex(
+        item => item.id === novaLista.find(item => item.id === novoFavorito.id).id
+      ),
+      1
+    )
+```
+
+Nesse código primeiramente o método find() encontra o objeto dentro da lista que possui o id igual ao id do novoFavorito, depois é selecionado apenas a propriedade id dele ao colocar .id ao final.
+
+Depois, ele compara novamente cada item da nova lista até encontrar qual possui o id daquele favorito repetido. Quando encontra, o método findIndex() retorna a posição dele na lista e isso permite com que o splice() o remova.
+
+Essas não são as únicas maneiras de resolver esse problema mas sinta-se livre para usa-las! Meus agradecimentos a todos da comunidade que alertaram dessa situação e trouxeram soluções para todos estudantes.
+
+
+- Exemplo:
+    - react_cine-tag_115
 
 
 
