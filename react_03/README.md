@@ -687,7 +687,8 @@ Agora, para usar esse contexto nos componentes, como devemos chamá-lo?
 - Selecione uma alternativa
 
 - A: useContext(UsuarioContext)
-`O hook useContext torna os dados do componente pai disponíveis para os componentes filhos em qualquer nível da Hierarquia sem expô-los como dados “props”, assim, no nosso caso, conseguimos acesso aos dados do contexto do usuário.`
+
+    - `O hook useContext torna os dados do componente pai disponíveis para os componentes filhos em qualquer nível da Hierarquia sem expô-los como dados “props”, assim, no nosso caso, conseguimos acesso aos dados do contexto do usuário.`
 
 - B: useContext(useUsuarioContext)
 
