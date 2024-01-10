@@ -852,3 +852,93 @@ Nessa aula, você aprendeu como:
 
 - Exemplo:
     - react_cine-tag_122
+
+
+
+
+##
+### Parte 4 - Evoluindo as rotas
+##
+
+
+
+### 123 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+
+- Exemplo:
+    - react_cine-tag_123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
