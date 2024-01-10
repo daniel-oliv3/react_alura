@@ -790,10 +790,10 @@ Você pode aprofundar ainda mais seu conhecimento sobre o hook useState com o in
     - react_cine-tag_120
 
 
+### 121 - Desafio: ajustando CSS
 
+**Desafio: ajustando CSS**
 
-Desafio: ajustando CSS
-PRÓXIMA ATIVIDADE
 
 Ao transformar a página de favoritos em dinâmica, de acordo com o que há dentro do contexto de favoritos, podemos visualizar que ao favoritar mais de um vídeo cada card fica embaixo do outro. Um comportamento que não gostariamos que acontecesse, uma vez que o layout do Figma mostra que cada card deve ficar um ao lado do outro.
 
@@ -803,7 +803,27 @@ Dica: os estilos são semelhantes ao da página inicial.
 
 
 
+- Opinião do instrutor
 
+Assim como a nossa página inicial, podemos usar o “flexbox” para posicionar os elementos um ao lado do outro. Por isso, dentro do arquivo Favoritos.module.css vamos estilizar a section que possui classe container atribuindo display: flex.
+
+```js
+.container {
+    display: flex;
+}
+```
+
+
+Em seguida, para construir um espaçamento entre cada página, podemos usar o atributo justify-content. No meu caso, utilizei o valor de space-around.
+
+```js
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+```
+
+Conseguiu resolver? Que tal dar uma olhada no fórum e ajudar quem possa estar com dúvidas? Ensinar é a melhor maneira de aprender!
 
 
 
