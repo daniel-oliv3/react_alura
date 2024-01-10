@@ -675,11 +675,27 @@ Essas não são as únicas maneiras de resolver esse problema mas sinta-se livre
     - react_cine-tag_115
 
 
+### 116 - Usando contextos
+
+**Usando contextos**
+
+A CEO do CineTag, Isadora, comentou sobre a possibilidade de no futuro haver a implementação do login de usuário no projeto. A equipe de desenvolvedores, já se adiantando sobre essa demanda, começou a discutir sobre a criação de um contexto de usuário para poder compartilhar as propriedades de nome do cliente para vários componentes. Para a criação, se usaria o seguinte trecho de código:
+
+const UsuarioContext = createContext();COPIAR CÓDIGO
+Agora, para usar esse contexto nos componentes, como devemos chamá-lo?
+
+- Selecione uma alternativa
+
+- A: useContext(UsuarioContext)
+`O hook useContext torna os dados do componente pai disponíveis para os componentes filhos em qualquer nível da Hierarquia sem expô-los como dados “props”, assim, no nosso caso, conseguimos acesso aos dados do contexto do usuário.`
+
+- B: useContext(useUsuarioContext)
+
+- C: useUsuarioContext('')
 
 
-
-
-
+- Exemplo:
+    - react_cine-tag_116
 
 
 
