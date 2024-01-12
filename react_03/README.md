@@ -742,6 +742,8 @@ Você pode visualizar a aplicação de Contexts em outro projeto React no Alura 
 
 **Favoritar**
 
+- Corrigido
+
 - Exemplo:
     - react_cine-tag_118
 

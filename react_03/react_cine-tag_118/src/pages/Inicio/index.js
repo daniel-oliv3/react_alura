@@ -14,7 +14,7 @@ function Inicio() {
 
         <section className={styles.container}>
           {videos.map((video) => {
-            return <Cards key={video.id} {...video}/>
+            return <Cards {...video} key={video.id} />
           })}
         </section>
     </>
