@@ -1014,6 +1014,7 @@ Nessa aula, você aprendeu como:
 - My Json Server
     - Link: https://my-json-server.typicode.com/
     - Link: https://my-json-server.typicode.com/daniel-oliv3/cine_tag
+    - Link: https://my-json-server.typicode.com/daniel-oliv3/cine_tag
 
 
 - Exemplo:
@@ -1021,7 +1022,13 @@ Nessa aula, você aprendeu como:
 
 
 
+### 132 - useEffect
 
+**useEffect**
+
+
+- Exemplo:
+    - react_cine-tag_132
 
 
 
