@@ -977,10 +977,20 @@ Criando essa rota, para aplicar esses componentes presentes nela, você pode ani
 
 
 
+### 129 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+- Criar rotas dinâmicas;
+- Enviar parâmetros via URL;
+- Receber parâmetros com o hook useParams;
+- Planejar rotas para URLs não existentes;
+- Construir rotas aninhadas.
 
 
-
-
+- Exemplo:
+    - react_cine-tag_129
 
 
 
