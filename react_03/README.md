@@ -952,7 +952,27 @@ Selecione uma alternativa
     
 
 
+### 128 - Para saber mais: Nested Routes
 
+**Para saber mais: Nested Routes**
+
+Nested Routes (em português, rotas aninhadas) é um recurso do React Router que auxilia na criação do projeto, evitando códigos de layout duplicados e complicados. Com ele, você acopla componentes que se repetem entre as páginas em uma rota, levando em conta alguma parte da URL que é repetida entre todas elas.
+
+Como no CineTag todas as páginas compartilham o mesmo cabeçalho, rodapé e contexto, conseguimos aplicar em todos eles pela parte da URL que eles têm em comum: a barra /.
+
+```js
+<Route path="/" element={<PaginaBase />}>
+    <Route index element={<Inicio />} />
+    <Route path="favoritos" element={<Favoritos />} />
+    <Route path="videos/:id/*" element={<Player />} />
+    <Route path="*" element={<NaoEncontrada />} />
+</Route>
+```
+
+Criando essa rota, para aplicar esses componentes presentes nela, você pode aninhar as outras rotas dentro dela (consequentemente as URLs também serão aninhadas, herdando da rota pai).
+
+- Exemplo:
+    - react_cine-tag_128
 
 
 
