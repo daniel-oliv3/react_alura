@@ -943,7 +943,13 @@ Selecione uma alternativa
 
 
 
+### 127 - Rotas aninhadas
 
+**Rotas aninhadas**
+
+- Exemplo:
+    - react_cine-tag_127
+    
 
 
 
