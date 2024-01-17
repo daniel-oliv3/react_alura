@@ -926,11 +926,20 @@ Selecione uma alternativa
     - react_cine-tag_125
 
 
+### 126 - Página de erro
 
 
+**Página de erro**
 
 
+- URLs
+- http://localhost:3000
+- http://localhost:3000/videos/1
+- http://localhost:3000/8
 
+
+- Exemplo:
+    - react_cine-tag_126
 
 
 
