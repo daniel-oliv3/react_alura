@@ -873,7 +873,18 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_123
 
 
+### 124 - Rota dinâmica
 
+**Rota dinâmica**
+
+- URLs:
+- http://localhost:3000/
+- http://localhost:3000/favoritos
+- http://localhost:3000/player
+- http://localhost:3000/1
+
+- Exemplo:
+    - react_cine-tag_124
 
 
 
