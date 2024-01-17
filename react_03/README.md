@@ -887,12 +887,43 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_124
 
 
+### 125 - Parâmetros da URL
+
+**Parâmetros da URL**
+
+
+A Isadora, CEO da CineTag, uma pessoa muito criativa, ainda possui planos de também construir um player de trilhas sonoras dos filmes disponíveis na plataforma. Como seria possível construir uma rota para cada música com boas práticas?
+
+Selecione uma alternativa
+
+- A:
+```js
+<Route path="musicas/id/" element={<PlayerMusica />} />
+```
+
+- B:
+```js
+<Route path="musicas/:id/" element={<PlayerMusica />} />
+```
+`A estrutura da criação de um parâmetro de URL dinâmico é o sinal de dois pontos e o nome desse parâmetro. Dessa maneira, foi criada uma rota dinâmica e podemos acessar as músicas pelo número do seu id.`
+
+- C:
+```js
+<Route path="musicas/:id/1" element={<PlayerMusica />} />
+<Route path="musicas/:id/2" element={<PlayerMusica />} />
+```
+
+- D:
+```js
+<Route path="musicas/:1/" element={<PlayerMusica />} />
+<Route path="musicas/:2/" element={<PlayerMusica />} />
+```
 
 
 
 
-
-
+- Exemplo:
+    - react_cine-tag_125
 
 
 
