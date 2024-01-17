@@ -993,10 +993,20 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_129
 
 
+##
+### Parte 5 - Externalizando Dados
+##
+
+
+### 130 - Projeto da aula anterior
+
+**Projeto da aula anterior**
 
 
 
 
+- Exemplo:
+    - react_cine-tag_130
 
 
 
