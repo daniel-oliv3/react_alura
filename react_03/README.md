@@ -1003,13 +1003,21 @@ Nessa aula, você aprendeu como:
 **Projeto da aula anterior**
 
 
-
-
 - Exemplo:
     - react_cine-tag_130
 
 
+### 131 - My Json Server
 
+**My Json Server**
+
+- My Json Server
+    - Link: https://my-json-server.typicode.com/
+    - Link: https://my-json-server.typicode.com/daniel-oliv3/cine_tag
+
+
+- Exemplo:
+    - react_cine-tag_131
 
 
 
