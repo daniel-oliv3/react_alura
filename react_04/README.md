@@ -1,0 +1,62 @@
+##
+### React: Migrando para TypeScript
+##
+
+<p align="center">
+  <img alt="...." src="./src/reactjs_logo_icon_170805.png" width="70%">
+</p>
+
+
+##
+### Parte 1 - TypeScript
+##
+
+
+### 1 - Apresentação
+
+**Apresentação**
+
+- Documentação
+    - Link: https://pt-br.legacy.reactjs.org/
+    - Node: https://nodejs.org/en
+
+- criar o projeto react
+```
+npx create-react-app react_cine-tag_90
+```
+
+- Roda o projeto
+```
+npm start
+```
+
+- Localhost:
+    - Link: http://localhost:3000/
+
+
+
+- Exemplo:
+    - react_app_01
+
+
+### 91 - Preparando o ambiente
+
+**Preparando o ambiente**
+
+- Visual Studio Code:
+    - Link: https://code.visualstudio.com/Download
+- Google Chrome
+    - Link: https://www.google.com/intl/pt-BR/chrome/
+
+- Exemplo:
+    - react_cine-tag_91
+
+
+### 92 - Criando o projeto
+
+**Criando o projeto**
+
+- Exemplo:
+    - react_cine-tag_92
+
+
