@@ -1064,11 +1064,16 @@ Selecione uma alternativa
 
 
 
+### 135 - Deploy
+
+**Deploy**
+
+- Projeto
+    - Link: https://cine-tag-sapup3.vercel.app/
 
 
-
-
-
+- Exemplo:
+    - react_cine-tag_135
 
 
 
