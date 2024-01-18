@@ -22,7 +22,7 @@
 
 - criar o projeto react
 ```
-npx create-react-app react_cine-tag_90
+npx create-react-app react_app-organo_01
 ```
 
 - Roda o projeto
@@ -36,7 +36,7 @@ npm start
 
 
 - Exemplo:
-    - react_app_01
+    - react_app-organo_01
 
 
 ### 91 - Preparando o ambiente
