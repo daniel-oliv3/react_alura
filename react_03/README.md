@@ -1031,12 +1031,26 @@ Nessa aula, você aprendeu como:
     - react_cine-tag_132
 
 
+### 133 - Revisando hooks
+
+**Revisando hooks**
 
 
+Durante o curso você se deparou com vários hooks (em português, ganchos) que auxiliam no desenvolvimento para casos específicos. Pensando nisso, para que serve o hook useEffect?
+
+Selecione uma alternativa
+
+- A: Usando esse Hook, você diz ao React que o componente pode fazer algo depois da renderização.
+`O hook useEffect possibilita realizar alterações após a primeira renderização, como no caso de requisições que são situações assíncronas.` 
+
+- B:Usando esse Hook, você permite que o React leia e atualize o contexto do seu componente.
 
 
+- C: Usando esse Hook, você permite que o React adicione uma variável de estado ao seu componente.
 
 
+- Exemplo:
+    - react_cine-tag_133
 
 
 
