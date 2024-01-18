@@ -85,6 +85,17 @@ Agora sim, tudo pronto para começar! Basta abrir o projeto no seu editor de tex
     - react_app-organo_02
 
 
+### 3 - Revisando o Organo
 
+**Revisando o Organo**
+
+- Dependências
+
+```
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+- Exemplo:
+    - react_app-organo_03
 
 
