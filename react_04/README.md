@@ -99,3 +99,15 @@ npm install --save typescript @types/node @types/react @types/react-dom @types/j
     - react_app-organo_03
 
 
+### 4 - Instalando as dependências
+
+**Instalando as dependências**
+
+- Dependências (tsconfig.json)
+
+```
+npx tsc --init
+```
+
+- Exemplo:
+    - react_app-organo_04
