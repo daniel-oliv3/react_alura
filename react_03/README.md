@@ -1093,12 +1093,26 @@ Selecione uma alternativa
 
 
 
+### 138 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+- Fazer upload de um protótipo de API no Github;
+- Hospedar o protótipo de API no My Json Server;
+- Consumir APIs com o FetchAPI;
+- Executar o deploy do projeto.
+
+- Exemplo:
+    - react_cine-tag_138
 
 
+### 139 - Conclusão
 
+**Conclusão**
 
-
-
+- Exemplo:
+    - react_cine-tag_139
 
 
 
