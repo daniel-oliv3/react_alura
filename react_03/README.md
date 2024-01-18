@@ -1053,7 +1053,13 @@ Selecione uma alternativa
     - react_cine-tag_133
 
 
+### 134 - Fetch com parâmetros
 
+**Fetch com parâmetros**
+
+
+- Exemplo:
+    - react_cine-tag_134
 
 
 
