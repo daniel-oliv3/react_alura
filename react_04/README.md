@@ -160,7 +160,33 @@ Pra já é importante que você saiba da existência dos três para saber qual �
 
 
 
+### 8 - De olho no tsconfig.json
 
+**De olho no tsconfig.json**
+
+
+
+
+Durante essa aula, nós criamos o arquivo `tsconfig.json`. Vamos relembrar algumas de suas responsabilidades? Marque a alternativa a seguir que é verdadeira.
+
+- Selecione uma alternativa
+
+- A: Ele especifica opções do compilador necessárias para compilar o projeto.
+`Isso aí! Exatamente! Inclusive nós geramos o arquivo base utilizando um script npx:`
+
+```json
+npx tsc --init
+```
+
+`Assim, temos já uma base grande de regras e configurações que podemos ligar e desligar de acordo com a necessidade do projeto.`
+
+- B: É nele onde especificamos as dependências dos projetos.
+
+
+- C: Ele define os comandos do npm disponíveis no projeto, por exemplo, o npm start.
+
+- Exemplo:
+    - react_app-organo_08
 
 
 
