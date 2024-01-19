@@ -242,12 +242,23 @@ export default Botao
 
 
 
+### 10 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+- Instalar os pacotes necessários para iniciar a migração de um projeto React de JS para TS;
+- Gerar o tsconfig.json a partir do script npx;
+- Aplicar as configurações do jsx;
+- Diferenciar arquivos js, jsx, ts e tsx.
+
+- Exemplo:
+    - react_app-organo_10
 
 
-
-
-
-
+##
+### Parte 2 - 
+##
 
 
 
