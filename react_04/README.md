@@ -257,12 +257,18 @@ Nessa aula, você aprendeu como:
 
 
 ##
-### Parte 2 - 
+### Parte 2 - Migração controlada
 ##
 
 
 
+### 11 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+
+- Exemplo:
+    - react_app-organo_11
 
 
 
