@@ -139,7 +139,24 @@ npx tsc --init
 
 
 
+### 7 - Para saber mais: JSX.Element, ReactNode e ReactElement
 
+**Para saber mais: JSX.Element, ReactNode e ReactElement**
+
+Durante o nosso dia a dia de pessoa desenvolvedora front-end que trabalha com React nós vamos nos deparar, em algum momento, com esses três tipos de elementos.
+
+Vamos entender, um pouquinho mais a fundo, qual a peculiaridade de cada um deles?
+
+O ReactElement é um objeto com um tipo e props.
+
+O ReactNode é um ReactElement, um ReactFragment, uma string, um number ou uma lista de ReactNodes, ou null, undefined ou boolean.
+
+O JSX.Element é um ReactElement com o tipo genérico para props e type sendo any. Ele existe para permitir que outras bibliotecas implementem o JSX de seu próprio jeito customizado.
+
+Pra já é importante que você saiba da existência dos três para saber qual é o melhor momento para utilizar cada um.
+
+- Exemplo:
+    - react_app-organo_07
 
 
 
