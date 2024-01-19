@@ -190,7 +190,52 @@ npx tsc --init
 
 
 
+### 9 - Faça como eu fiz: iniciando a migração
 
+**Faça como eu fiz: iniciando a migração**
+
+
+Hora de começar a migração. Comece instalando os pacotes necessários, conforme fizemos na aula "Instalando as dependências". Depois disso, gere o arquivo tsconfig.json e por fim, implemente a migração do componente Botao.
+
+ - Opinião do instrutor
+
+Bem começado, metade feito. Certo?
+
+Para instalar os pacotes necessários, você pode rodar o seguinte comando no terminal (lembre-se de entrar dentro da pasta raiz do projeto, OK?):
+
+```
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```
+- 
+
+```
+npx tsc --init
+```
+
+E, finalmente, migramos o Botão para .tsx:
+
+```tsx
+// src/componentes/Botao/index.tsx
+import { ReactElement } from 'react'
+import './Botao.css'
+
+import React from 'react';
+
+interface BotaoProps {
+    children: ReactElement
+}
+
+const Botao = (props: BotaoProps) => {
+    return (<button className='botao'>
+        {props.children}
+    </button>)
+}
+
+export default Botao
+```
+
+- Exemplo:
+    - react_app-organo_09
 
 
 
