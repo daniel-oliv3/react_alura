@@ -111,3 +111,22 @@ npx tsc --init
 
 - Exemplo:
     - react_app-organo_04
+
+
+
+### 5 - Gerando o tsconfig
+
+**Gerando o tsconfig**
+
+- habilitar no tsconfig (linha 16)
+```json
+"jsx": "react", 
+```
+
+
+- Exemplo:
+    - react_app-organo_05
+
+
+
+
