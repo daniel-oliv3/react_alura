@@ -451,11 +451,25 @@ export default Banner
 
 
 
+### 18 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+
+- Configurar o jsx no tsconfig.json;
+- Configurar a tipagem de funções;
+- Inferir os tipos de variáveis geradas pela desconstrução das props;
+- Para que servem pacotes dentro do escopo @types.
 
 
+- Exemplo:
+    - react_app-organo_18
 
 
-
+##
+### Parte 3 - 
+##
 
 
 
