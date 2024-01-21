@@ -309,7 +309,22 @@ Nessa aula, você aprendeu como:
 
 
 
+### 15 - Para saber mais: sobre os pacotes @types
 
+**Para saber mais: sobre os pacotes @types**
+
+- O que são pacotes `@types`?
+
+Pacotes dentro do escopo @types nos permitem ter acesso uma tonelada de definições de tipo super úteis, como, por exemplo, as definições de tipo do node.js que nos permitem usar require.
+
+Por exemplo, o pacote `@types/node` contém definições de tipo do próprio Node.js.
+
+- Quando usar @types?
+
+Os pacotes @types contém definições dos tipos de muitas bibliotecas, como Express, Sequelize, React entre outras. Mas verifique se o pacote que você está usando já possui os tipos incluídos antes de instalar os tipos do `@types`.
+
+- Exemplo:
+    - react_app-organo_15
 
 
 
