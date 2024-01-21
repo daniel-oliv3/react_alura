@@ -292,17 +292,19 @@ Nessa aula, você aprendeu como:
 - SyntheticEvent
     - Link: https://pt-br.legacy.reactjs.org/docs/events.html
 
-
-
 - Exemplo:
     - react_app-organo_13
 
 
 
 
+### 14 - Desconstrução e tipos
+
+**Desconstrução e tipos**
 
 
-
+- Exemplo:
+    - react_app-organo_14
 
 
 
