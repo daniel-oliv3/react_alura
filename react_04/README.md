@@ -271,8 +271,31 @@ Nessa aula, você aprendeu como:
     - react_app-organo_11
 
 
+### 12 - Migrar o Banner
+
+**Migrar o Banner**
+
+- Exemplo:
+    - react_app-organo_12
 
 
+
+### 13 - Conhecendo tipos diferentes
+
+**Conhecendo tipos diferentes**
+
+- habilitar no tsconfig (linha 16)
+```json
+"jsx": "react-jsx", 
+```
+
+- SyntheticEvent
+    - Link: https://pt-br.legacy.reactjs.org/docs/events.html
+
+
+
+- Exemplo:
+    - react_app-organo_13
 
 
 
