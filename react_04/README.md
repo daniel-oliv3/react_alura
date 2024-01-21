@@ -328,7 +328,34 @@ Os pacotes @types contém definições dos tipos de muitas bibliotecas, como Exp
 
 
 
+### 16 - De olho nos React Hooks
 
+**De olho nos React Hooks**
+
+Durante uma entrevista de emprego, a líder técnica Karina te fez uma pergunta sobre um tema recorrente no nosso dia a dia: hooks:
+
+O que são os React Hooks e para que eles, de fato, servem?
+
+- Selecione uma alternativa
+
+- A: É uma função que permite conectar dois ou mais estilos a um mesmo elemento HTML.
+
+
+- B: É uma ferramenta de pesquisa que ajuda você a encontrar trechos específicos no seu código.
+
+
+- C: Eles permitem que você possua estado local e outros recursos do React sem escrever componentes baseados em classes.
+`Isso aí! Exatamente! Essa veio direto da documentação, né? Eles resolvem vários problemas já conhecidos pelo time que mantém o projeto. Você pode entender mais a fundo sobre o assunto nesse artigo oficial.`
+
+- Links
+
+- Motivation
+    - Link: https://legacy.reactjs.org/docs/hooks-intro.html#motivation
+- Hooks at a Glance
+    - Link: https://legacy.reactjs.org/docs/hooks-overview.html
+
+- Exemplo:
+    - react_app-organo_16
 
 
 
