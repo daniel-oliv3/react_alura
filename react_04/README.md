@@ -468,13 +468,16 @@ Nessa aula, você aprendeu como:
 
 
 ##
-### Parte 3 - 
+### Parte 3 - Tipos Complexos
 ##
 
 
+### 19 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
-
+- Exemplo:
+    - react_app-organo_19
 
 
 
