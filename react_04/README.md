@@ -481,6 +481,14 @@ Nessa aula, você aprendeu como:
 
 
 
+### 20 - Migrando o Time
+
+**Migrando o Time**
+
+- Exemplo:
+    - react_app-organo_20
+
+
 
 
 
