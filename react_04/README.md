@@ -640,9 +640,17 @@ Nessa aula, você aprendeu como:
     - react_app-organo_26
 
 
+##
+### Parte 4 - Avançando nas tipagem
+##
 
 
+### 27 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react_app-organo_27
 
 
 
