@@ -591,13 +591,35 @@ Marque a alternativa que melhor descreve o JSX:
 
 
 
+### 25 - Faça como eu fiz: migração incremental
+
+**Faça como eu fiz: migração incremental**
+
+
+Hora de evoluir nossa migração, e dessa vez vamos atacar os seguintes componentes:
+
+CampoTexto (atualizar props)
+Colaborador
+Formulario
+ListaSuspensa
+Time
+E ajustar as configs do tsconfig.json.
+
+Vamos nessa? Hora do show!
+
+VER OPINIÃO DO INSTRUTOR
+Opinião do instrutor
+
+Dessa vez são muitas alterações, então vou te passar um gabarito diferente.
+
+Dá uma olhada aqui no GitHub. Nesse link você consegue ver o que mudou, o que foi criado e o que foi deletado.
+
+Se precisar de ajuda, lembre-se de usar o fórum. Eu procuro estar sempre por lá pra tentar ajuda :)
 
 
 
-
-
-
-
+- Exemplo:
+    - react_app-organo_25
 
 
 
