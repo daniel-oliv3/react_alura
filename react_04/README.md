@@ -485,12 +485,21 @@ Nessa aula, você aprendeu como:
 
 **Migrando o Time**
 
+- Campo de txt, err
+
 - Exemplo:
     - react_app-organo_20
 
 
 
+### 21 - Refatorando a Lista Suspensa
 
+**Refatorando a Lista Suspensa**
+
+- Campo de txt, err
+
+- Exemplo:
+    - react_app-organo_21
 
 
 
