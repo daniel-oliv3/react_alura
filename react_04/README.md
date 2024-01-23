@@ -557,9 +557,9 @@ type Filhote = {
 
 Dependendo dos seus objetivos essa diferença pode ser positiva ou negativa.
 
-Como um dos melhores recursos para ver todos os casos de uso de tipos vs interfaces, vale a pena dar uma lida nessa thread do Stackoverflo
+Como um dos melhores recursos para ver todos os casos de uso de tipos vs interfaces, vale a pena dar uma lida nessa thread do Stackoverflow
 
-- thread do Stackoverflo
+- thread do Stackoverflow
     - Link: https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/52682220#52682220
 
 - Exemplo:
@@ -567,7 +567,27 @@ Como um dos melhores recursos para ver todos os casos de uso de tipos vs interfa
 
 
 
+### 24 - De olho no JSX
 
+**De olho no JSX**
+
+Utilizamos JSX nos nossos componentes, mas será que sabemos descrever precisamente o que ele é?
+
+Marque a alternativa que melhor descreve o JSX:
+
+- Selecione uma alternativa
+
+- A: É uma arquitetura que ajuda o React a implementar o fluxo de dados unidirecional.
+
+
+- B: É uma ferramenta interna do React que desmonta o componente durante seu ciclo de vida.
+
+
+- C: É uma extensão de sintaxe para JS utilizada para descrever como a interface do usuário deve ser.
+`Isso aí! Exatamente! Sua memória tá afiadinha. O JSX é bastante parecido com o HTML, então o processo de escrever a estrutura dos elementos é bem mais tranquilo para pessoas desenvolvedoras que possuem uma boa base em HTML.`
+
+- Exemplo:
+    - react_app-organo_24
 
 
 
