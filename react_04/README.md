@@ -603,12 +603,11 @@ Colaborador
 Formulario
 ListaSuspensa
 Time
-E ajustar as configs do tsconfig.json.
+E ajustar as configs do `tsconfig.json`.
 
 Vamos nessa? Hora do show!
 
-VER OPINIÃO DO INSTRUTOR
-Opinião do instrutor
+- Opinião do instrutor
 
 Dessa vez são muitas alterações, então vou te passar um gabarito diferente.
 
@@ -620,6 +619,43 @@ Se precisar de ajuda, lembre-se de usar o fórum. Eu procuro estar sempre por l�
 
 - Exemplo:
     - react_app-organo_25
+
+
+
+
+
+
+### 26 - O que aprendemos?
+
+**O que aprendemos?**
+
+Nessa aula, você aprendeu como:
+- Criar interfaces;
+- Entender a diferença entre type e Interface;
+- Configurar propriedades opcionais nas interfaces;
+- Tipar funções;
+- Configurar o jsx no `tsconfig.json`.
+
+- Exemplo:
+    - react_app-organo_26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
