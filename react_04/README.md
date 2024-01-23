@@ -506,14 +506,64 @@ Nessa aula, você aprendeu como:
 
 **Refatorando o Formulário**
 
-- Campo de txt, err
-
 - Exemplo:
     - react_app-organo_22
 
 
 
+### 23 - Para saber mais: Interface vs Types
 
+**Para saber mais: Interface vs Types**
+
+
+Existem dois tipos principais para declarar a forma de um objeto: interfaces e tipos.
+
+Eles são bem parecidos e para a maioria dos casos funcionam da mesma forma.
+
+Ambos suportam a extensão de outras interfaces e tipos.
+
+Os tipos fazem isso através da interseção de tipos, enquanto interfaces possuem uma palavra-chave reservada.
+
+A equipe da Microsoft recomenda o uso de interfaces ao invés de tipos.
+
+Uma das maiores diferenças entre tipos e interfaces é que interfaces são abertas e tipos são fechados.
+
+Isso significa que você pode extender interfaces declarando uma segunda vez.
+
+
+```tsx
+interface Cachorro {
+  adestrado: boolean;
+}
+
+interface Cachorro {
+  cor: string;
+}
+// isso funciona
+```
+
+Por outro lado, esses tipos não podem ser alterados fora da própria declaração.
+
+```tsx
+type Filhote = {
+  cor: string;
+};
+
+type Filhote = {
+  brinquedos: number;
+};
+// isso não funciona
+```
+
+Dependendo dos seus objetivos essa diferença pode ser positiva ou negativa.
+
+Como um dos melhores recursos para ver todos os casos de uso de tipos vs interfaces, vale a pena dar uma lida nessa thread do Stackoverflo
+
+- thread do Stackoverflo
+    - Link: https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/52682220#52682220
+
+- Exemplo:
+    - react_app-organo_23
 
 
 
