@@ -6,7 +6,7 @@ import ListaSuspensa from '../ListaSuspensa';
 import './Formulario.css';
 
 interface FormularioProps {
-  aoColaboradorCadastrado: (colaborador: IColaborador) => void;
+  aoColaboradorCadastrado: (colaborador: IColaborador) => void
   times: string[]
 }
 
@@ -14,8 +14,8 @@ interface FormularioProps {
 // ------- Component -------
 const Formulario = (props: FormularioProps) => {
 
-  const [nome, setNome] = useState('Daniel');
-  const [cargo, setCargo] = useState('ceo');
+  const [nome, setNome] = useState('');
+  const [cargo, setCargo] = useState('');
   const [imagem, setImagem] = useState('');
   const [time, setTime] = useState('');
 
