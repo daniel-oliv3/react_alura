@@ -663,7 +663,12 @@ Nessa aula, você aprendeu como:
     - react_app-organo_28
 
 
+### 29 - Inferência de tipo e generics
 
+**Inferência de tipo e generics**
+
+- Exemplo:
+    - react_app-organo_29
 
 
 
