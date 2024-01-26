@@ -655,6 +655,12 @@ Nessa aula, você aprendeu como:
 
 
 
+### 28 - Tipos incompatíveis
+
+**Tipos incompatíveis**
+
+- Exemplo:
+    - react_app-organo_28
 
 
 
