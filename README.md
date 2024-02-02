@@ -14,4 +14,6 @@
 
 ### 4 - React: Migrando para TypeScript
 
+### 5 - React: autenticando usuários
+
 
