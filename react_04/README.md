@@ -684,6 +684,12 @@ npm tsc --init
     - react_app-organo_30
 
 
+### 31 - Push e deploy
+
+**Push e deploy**
+
+- Exemplo:
+    - react_app-organo_31
 
 
 
