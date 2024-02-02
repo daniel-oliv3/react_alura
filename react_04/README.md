@@ -818,9 +818,35 @@ Mas calma, ainda tem mais umas coisinhas antes de finalizarmos.
 
 
 
+### 38 - Para saber mais: TypeScript vs JSdoc
 
 
+**Para saber mais: TypeScript vs JSdoc**
 
+O que é JSDoc?
+
+Ele foi criado no ano de 1999 e é uma linguagem de marcação usada para anotar arquivos .js.
+
+Usando comentários contendo JSDoc, é possível adicionar documentação descrevendo a interfaces.
+
+Por exemplo, em TS definimos o tipo assim:
+
+```tsx
+const nome: string
+```
+
+- E no caso do JSdoc, temos:
+
+```tsx
+const nome: string
+```
+
+Curioso para saber mais? Se liga aqui na documentação.
+
+- Link: https://jsdoc.app/
+
+- Exemplo:
+    - react_app-organo_38
 
 
 
