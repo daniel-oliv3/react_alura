@@ -36,7 +36,7 @@ npm start
 
 
 - Exemplo:
-    - react_app-organo_01
+    - react_book_01
 
 
 ### 2 - Preparando o ambiente
@@ -51,6 +51,6 @@ npm start
 
 
 - Exemplo:
-    - a_book_02
+    - react_book_02
 
 
