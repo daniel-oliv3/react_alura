@@ -849,6 +849,21 @@ Curioso para saber mais? Se liga aqui na documentação.
     - react_app-organo_38
 
 
+### 39 - Faça como eu fiz: incrementando o formulário
 
+**Faça como eu fiz: incrementando o formulário**
+
+Agora é a reta final, onde colocamos todos os pingos nos is.
+
+Faça os ajustes no CampoTexto e adicione o novo campo no formulário.
+
+- Opinião do instrutor
+
+Confira aqui o código desenvolvido em aula, e agora já podemos comemorar um novo deploy e a finalização de mais um curso!
+
+- Link: https://github.com/alura-cursos/organo-ts/compare/aula-4...aula-5?expand=1
+
+- Exemplo:
+    - react_app-organo_39
 
 
