@@ -893,3 +893,43 @@ Caso queira dar uma espiadela no projeto final, você pode acessar o projeto nes
 - Exemplo:
     - react_app-organo_41
 
+
+
+
+### 42 - Parabéns
+
+**Parabéns**
+
+
+Chegou o momento de celebrar sua grande conquista!
+Troféu
+
+Neste treinamento, todas as barreiras foram vencidas e você aprofundou ainda mais seus conhecimentos em React, dessa vez com TypeScript.
+
+Foram vários desafios pelo caminho, e eu espero que você tenha gostado tanto quanto eu da jornada.
+
+Mostre a aplicação que desenvolveu para outras pessoas e marque a Alura nas redes sociais com a #alura, porque vamos olhar seu projeto e curtir o que fez.
+
+Agora, dê uma nota para o curso, pegue seu certificado e comemore bastante essa conquista.
+
+Meus parabéns! Estou muito feliz por você ter chegado até aqui.
+
+- Vinicios Neves
+    Link: - https://www.linkedin.com/in/vinny-neves/
+
+- Exemplo:
+    - react_app-organo_42
+
+
+
+
+### 43 - Conclusão
+
+**Conclusão**
+
+- Exemplo:
+    - react_app-organo_43
+
+
+
+
