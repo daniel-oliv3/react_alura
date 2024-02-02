@@ -777,3 +777,21 @@ Mas calma, ainda tem mais umas coisinhas antes de finalizarmos.
     - react_app-organo_34
 
 
+
+
+
+
+
+
+### 35 -  O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+    - Explicitar que uma expressão que pode ser nula tem, de fato, algum valor;
+    - Utilizar fragmentos React;
+    - Trabalhar com múltiplos tipos para uma mesma prop
+
+
+- Exemplo:
+    - react_app-organo_35
