@@ -718,22 +718,37 @@ Vale ressaltar que a documentação do TypeScript é SUPER completinha, desde ex
 
 
 
+### 33 - De olho nos elementos da lista
+
+**De olho nos elementos da lista**
+
+No componente Time, fizemos uma iteração em cima da lista de colaboradores para transformarmos cada colaborador num componente. Desse jeito:
+
+```tsx
+<div className='colaboradores'>
+    {props.colaboradores.map( colaborador => <Colaborador
+        corDeFundo={props.corPrimaria}
+        ????={colaborador.nome}
+        nome={colaborador.nome}
+        cargo={colaborador.cargo}
+        imagem={colaborador.imagem}/> )}
+</div>
+```
+
+Temos que adicionar ali uma prop que não vai ser utilizada pelo componente Colaborador, mas sim pelo React. Inclusive, ao não fazer isso, temos um erro no console que o React cola indicando o problema.
+
+- Que propriedade é essa?
+
+- A: onChange
+
+- B: key
 
 
+`Isso aí! Exatamente! As chaves ajudam o React a identificar quais itens sofreram alterações, foram adicionados ou removidos. As chaves devem ser atribuídas aos elementos dentro do array para dar uma identidade estável aos elementos.`
 
+- C: value
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Exemplo:
+    - react_app-organo_33
 
 
