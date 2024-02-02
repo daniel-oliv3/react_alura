@@ -16,4 +16,6 @@
 
 ### 5 - React: autenticando usuários
 
+### 6 - React: escrevendo com Typescript
+
 
