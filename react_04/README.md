@@ -878,3 +878,18 @@ Caso queira dar uma espiadela no projeto final, você pode acessar o projeto nes
 
 - Exemplo:
     - react_app-organo_40
+
+
+
+### 41 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+    - Refatorar componentes, adicionando novas funcionalidades;
+    - Entender as vantagens e desvantagens do TypeScript;
+    - Configurar regras no tsconfig.json.
+
+- Exemplo:
+    - react_app-organo_41
+
