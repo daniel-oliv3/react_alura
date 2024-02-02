@@ -797,15 +797,9 @@ Mas calma, ainda tem mais umas coisinhas antes de finalizarmos.
 ##
 
 
-### 36 -  O que aprendemos?
+### 36 -  Projeto da aula anterior
 
-**O que aprendemos?**
-
-- Nessa aula, você aprendeu como:
-    - Explicitar que uma expressão que pode ser nula tem, de fato, algum valor;
-    - Utilizar fragmentos React;
-    - Trabalhar com múltiplos tipos para uma mesma prop
-
+**Projeto da aula anterior**
 
 - Exemplo:
     - react_app-organo_36
