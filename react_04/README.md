@@ -753,8 +753,6 @@ Temos que adicionar ali uma prop que não vai ser utilizada pelo componente Cola
 
 
 
-
-
 ### 34 - Faça como eu fiz: ajustes finais
 
 **Faça como eu fiz: ajustes finais**
