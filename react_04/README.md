@@ -671,7 +671,17 @@ Nessa aula, você aprendeu como:
     - react_app-organo_29
 
 
+### 30 - Meu projeto, minhas regras
 
+**Meu projeto, minhas regras**
+
+- tscongif.json
+```
+npm tsc --init
+```
+
+- Exemplo:
+    - react_app-organo_30
 
 
 
