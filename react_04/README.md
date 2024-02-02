@@ -867,3 +867,14 @@ Confira aqui o código desenvolvido em aula, e agora já podemos comemorar um no
     - react_app-organo_39
 
 
+
+### 40 - Projeto final do curso
+
+**Projeto final do curso**
+
+Caso queira dar uma espiadela no projeto final, você pode acessar o projeto nesse link.
+
+- Link: https://github.com/alura-cursos/organo-ts/tree/aula-5
+
+- Exemplo:
+    - react_app-organo_40
