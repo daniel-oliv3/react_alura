@@ -688,8 +688,49 @@ npm tsc --init
 
 **Push e deploy**
 
+```
+npm run build
+```
+
 - Exemplo:
     - react_app-organo_31
+
+
+
+### 32 - Para saber mais: regras pra que te quero
+
+**Para saber mais: regras pra que te quero**
+
+Nós trabalhamos com o `tsconfig.json` durante o curso, mas ele é extremamente poderoso.
+
+Se você quiser customizar do seu jeito as regras do seu projeto, vou deixar aqui pra você a fonte da verdade:
+
+- tsconfig-json
+    - Link: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+- propriedades explicadas
+    - Link: https://www.typescriptlang.org/tsconfig
+
+Vale ressaltar que a documentação do TypeScript é SUPER completinha, desde explicações até guias de boas práticas.
+
+
+- Exemplo:
+    - react_app-organo_32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
