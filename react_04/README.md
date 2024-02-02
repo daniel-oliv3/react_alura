@@ -752,3 +752,28 @@ Temos que adicionar ali uma prop que não vai ser utilizada pelo componente Cola
     - react_app-organo_33
 
 
+
+
+
+### 34 - Faça como eu fiz: ajustes finais
+
+**Faça como eu fiz: ajustes finais**
+
+Agora é aparar as arestas e publicar na Vercel pra garantir que não tem nada fora do lugar, certo?
+
+Faça a migração do `App.tsx`, remova os imports desnecessários no Banner e no Botao, e pra colocar a cereja no bolo, faça os ajustes no `src/index.tsx`.
+
+No final, publique novamente para garantir que tudo está funcionando.
+
+- Opinião do instrutor
+
+Dá uma olhada aqui no GitHub para acompanhar as alterações que fizemos nesta aula.
+
+- https://github.com/alura-cursos/organo-ts/compare/aula-3...aula-4?expand=1
+
+Mas calma, ainda tem mais umas coisinhas antes de finalizarmos.
+
+- Exemplo:
+    - react_app-organo_34
+
+
