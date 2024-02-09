@@ -43,7 +43,7 @@ npm dev
 ```
 
 - Localhost:
-    - Link: http://localhost:3000/
+    - Link: http://localhost:5173/
 
 
 
