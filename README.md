@@ -18,4 +18,5 @@
 
 ### 6 - React: escrevendo com Typescript
 
+### 7 - React com TailwindCSS: estilizando componentes
 
