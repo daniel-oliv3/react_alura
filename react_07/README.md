@@ -16,18 +16,30 @@
 
 **Apresentação**
 
+- Alura Newsletter
+
 - Documentação
     - Link: https://pt-br.legacy.reactjs.org/
     - Node: https://nodejs.org/en
+    - Vite: https://vitejs.dev/
 
-- criar o projeto react
+- Criar o projeto react com vite
 ```
-npx create-react-app react_book_01
+yarn create vite 
+```
+
+- Nome do projeto: newsletter_01
+- Tecnologia: React
+- Com: JavaScript
+
+- build (node_modules)
+```
+yarn
 ```
 
 - Roda o projeto
 ```
-npm start
+npm dev
 ```
 
 - Localhost:
@@ -48,6 +60,10 @@ npm start
 - Google Chrome
     - Link: https://www.google.com/intl/pt-BR/chrome/
 
+- Yarn
+```
+npm install --global yarn
+```
 
 
 - Exemplo:
