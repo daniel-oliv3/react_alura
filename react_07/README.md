@@ -68,6 +68,68 @@ yarn dev
 
 
 - Exemplo:
+    - newsletter_02
+
+
+
+### 3 - React com vite
+
+**React com vite**
+
+- Exemplo:
     - newsletter_03
+
+
+### 4 - Instalação do Tailwind
+
+**Instalação do Tailwind**
+
+- TailWindCSS:
+    - Site: https://tailwindcss.com/
+    - Link: https://tailwindcss.com/docs/installation
+
+
+- Package Maneger 
+```
+yarn add -D tailwindcss postcss autoprefixer
+``` 
+
+- Cria os arquivos (`tailwind.config.js`, `postcss.config.js`)
+```
+npx tailwindcss init -p
+``` 
+
+-  Colar código no arquivo `tailwind.config.js`
+```cjs
+content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+```
+
+- Exemplo:
+    - newsletter_04
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
