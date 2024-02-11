@@ -23,14 +23,20 @@
     - Node: https://nodejs.org/en
     - Vite: https://vitejs.dev/
 
+- Yarn (Globalmente)
+```
+npm install --global yarn
+```    
+
 - Criar o projeto react com vite
 ```
 yarn create vite 
 ```
 
 - Nome do projeto: newsletter_01
-- Tecnologia: React
-- Com: JavaScript
+    - Tecnologia: React
+    - Com: JavaScript
+
 
 - build (node_modules)
 ```
@@ -39,7 +45,7 @@ yarn
 
 - Roda o projeto
 ```
-npm dev
+yarn dev
 ```
 
 - Localhost:
@@ -48,7 +54,7 @@ npm dev
 
 
 - Exemplo:
-    - react_book_01
+    - newsletter_02
 
 
 ### 2 - Preparando o ambiente
@@ -60,13 +66,8 @@ npm dev
 - Google Chrome
     - Link: https://www.google.com/intl/pt-BR/chrome/
 
-- Yarn
-```
-npm install --global yarn
-```
-
 
 - Exemplo:
-    - react_book_02
+    - newsletter_03
 
 
