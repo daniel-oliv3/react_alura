@@ -107,22 +107,78 @@ content: [
   ],
 ```
 
+- postcss.config.cjs = `postcss.config.js`
+- tailwind.config.cjs = `tailwind.config.js`
+- `cjs` Não funcionou -> `js` Ok
+
 - Exemplo:
     - newsletter_04
 
 
 
 
+### 5 - Teoria sobre Tailwind
+
+**Teoria sobre Tailwind**
+
+- Tailwindcss/telaMenor/telaMaior
+
+- Margin: https://tailwindcss.com/docs/margin
+- Paleta de cores: https://tailwindcss.com/docs/customizing-colors
+
+- Exemplo:
+    - newsletter_05
 
 
+### 6 - Criando o cabeçalho
+
+**Criando o cabeçalho**
+
+- Exemplo:
+    - newsletter_06
 
 
+### 7 - Tailwind, React e Vite
+
+**Tailwind, React e Vite**
+
+- Exemplo:
+    - newsletter_07
 
 
+### 8 - Para saber mais: documentação oficial
+
+**Para saber mais: documentação oficial**
+
+Para consolidar seu conhecimento, quero deixar 2 links importantes para sua jornada de estudo sobre React e Tailwind:
+
+- https://tailwindcss.com/
+- https://nerdcave.com/tailwind-cheat-sheet
+
+Link da documentação oficial
+Link de principais comandos e atalhos do Tailwind
+Sempre que possível, consulte a documentação oficial das tecnologias que está estudando, pois, isso será de grande valia para sua carreira dev.
+
+- Exemplo:
+    - newsletter_08
 
 
+### 9 - O que aprendemos?
+
+**O que aprendemos?**
 
 
+Nesta aula:
+- Iniciamos o desenvolvimento do projeto React com Vite;
+- Entendemos a integração entre Tailwind, PostCSS e React;
+- Desenvolvemos um componente cabeçalho e demos nosso primeiro mergulho no mundo do Tailwind com React de forma prática.
+
+- Na próxima aula:
+
+Vamos aprofundar no Tailwind e criar o tema no projeto aplicando de forma prática o modo noturno!
+
+- Exemplo:
+    - newsletter_09
 
 
 
