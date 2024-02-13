@@ -197,9 +197,17 @@ Vamos aprofundar no Tailwind e criar o tema no projeto aplicando de forma práti
     - newsletter_09
 
 
+##
+### Parte 2 - Conhecendo os recursos
+##
 
 
+### 10 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+    - newsletter_10
 
 
 
