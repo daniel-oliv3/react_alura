@@ -134,6 +134,8 @@ content: [
 
 **Criando o cabeçalho**
 
+- Container: https://tailwindcss.com/docs/container
+
 - Exemplo:
     - newsletter_06
 
