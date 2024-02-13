@@ -144,6 +144,20 @@ content: [
 
 **Tailwind, React e Vite**
 
+Tailwind CSS é uma estrutura CSS de código aberto que prioriza o utilitário. Ele redefine a maneira como você estiliza os aplicativos, fornecendo uma variedade de classes CSS e pode ser usada com a biblioteca Front-end mais conhecida do mundo: o React.
+
+Sabendo disso, analise as afirmações abaixo e marque apenas as verdadeiras.
+
+Selecione uma alternativa
+
+- A: Unir o React com o Tailwind de forma adequada, pode melhorar a sustentabilidade dos estilos do projeto.
+`Isso aí! A união do React com Tailwind pode tornar os aplicativos mais escaláveis e de fácil manutenção, reduzindo o tempo de desenvolvimento e o tempo de manutenção do código.`
+
+- B: O Tailwind aplicado a um projeto React, não oferece suporte para personalizar os estilos.
+
+
+- C: O Tailwind só funciona se aplicado a um projeto React com Vite.
+
 - Exemplo:
     - newsletter_07
 
