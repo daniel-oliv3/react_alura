@@ -54,7 +54,7 @@ yarn dev
 
 
 - Exemplo:
-    - newsletter_02
+    - newsletter_01
 
 
 ### 2 - Preparando o ambiente
@@ -210,6 +210,32 @@ Vamos aprofundar no Tailwind e criar o tema no projeto aplicando de forma práti
     - newsletter_10
 
 
+### 11 - Estruturas de extensão
+
+**Estruturas de extensão**
+
+- Resources:
+    - Link: https://tailwindcss.com/resources
+- HerosIcons:
+    - Link: https://heroicons.com/
+    - Documentação: https://github.com/tailwindlabs/heroicons
+
+
+- Biblioteca (HeroIcons)
+
+```
+yarn add @heroicons/react
+```
+
+- Editor Setup
+    - Link: https://tailwindcss.com/docs/editor-setup
+
+- Extensãos VSCode
+    - `Tailwind css intelliSense`
+    - `Prettier`
+
+- Exemplo:
+    - newsletter_11
 
 
 
