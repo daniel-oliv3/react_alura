@@ -247,7 +247,7 @@ yarn add @heroicons/react
 
 - `tailwind.config.js`
 
-```
+```js
 darkMode: 'class',
 ```
 
@@ -255,6 +255,21 @@ darkMode: 'class',
     - newsletter_12
 
 
+### 13 - Modo noturno
+
+**Modo noturno**
+
+- Dark Mode:
+    - Link: https://tailwindcss.com/docs/dark-mode
+
+
+- Supporting system preference and manual selection
+```js
+window.matchMedia('(prefers-color-scheme: dark)').matches
+```
+
+- Exemplo:
+    - newsletter_13
 
 
 
