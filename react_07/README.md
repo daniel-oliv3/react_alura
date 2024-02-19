@@ -238,4 +238,121 @@ yarn add @heroicons/react
     - newsletter_11
 
 
+### 12 - Criando um tema
+
+**Criando um tema**
+
+- Dark Mode:
+    - Link: https://tailwindcss.com/docs/dark-mode
+
+- `tailwind.config.js`
+
+```
+darkMode: 'class',
+```
+
+- Exemplo:
+    - newsletter_12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
