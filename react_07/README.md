@@ -484,6 +484,31 @@ Analisando os códigos acima, podemos afirmar que:
 
 
 
+### 22 - Acessibilidade e imagens
+
+**Acessibilidade e imagens**
+
+Aprendemos que podemos aplicar designs responsivos voltados para dispositivos móveis com Tailwind. Cada classe de utilitário pode ser usada em conjunto com um modificador responsivo, como espaçamentos ou textos alternativos como ilustra o código abaixo:
+
+```jsx
+<img class="sm:p-4" src="bg.jpeg">
+<span class="sr-only">alt da imagem alt</span>
+```
+
+Com base no código acima, analise as afirmações abaixo e marque apenas as verdadeiras.
+
+- Selecione uma alternativa
+
+- A: A classe sr-only é usada para ocultar um elemento visualmente sem escondê-lo dos leitores de tela.
+`Isso aí! O Tailwind possui classes utilitárias exclusivas para melhorar a acessibilidade com leitores de tela.`
+
+- B: Ao executar esse código num ambiente com o Tailwind instalado e configurado de forma correta, o resultado seria uma imagem com espaçamento com um texto em baixo.
+
+
+- C: Ao executar esse código num ambiente com o Tailwind instalado e configurado de forma correta, o resultado seria uma imagem sem espaçamento.
+
+- Exemplo:
+    - newsletter_22
 
 
 
