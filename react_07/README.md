@@ -525,7 +525,20 @@ Não tem dúvidas? Que tal ajudar alguém no fórum? :)
     - newsletter_23
 
 
+### 24 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Nesta aula:
+  - Realizamos o consumo de um arquivo JSON e mapeando os artigos em componentes React;
+  - Aprendemos como tornar o projeto responsivo;
+  - Manipulamos as imagens de forma prática com Tailwind.
+
+- Na próxima aula:
+  - Vamos aprender como trabalhar com formulários e animações no Tailwind!
+
+- Exemplo:
+    - newsletter_24
 
 
 
