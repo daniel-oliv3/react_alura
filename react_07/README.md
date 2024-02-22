@@ -511,10 +511,18 @@ Com base no código acima, analise as afirmações abaixo e marque apenas as ver
     - newsletter_22
 
 
+### 23 - Faça como eu fiz
 
+**Faça como eu fiz**
 
+Chegou a hora de você seguir todos os passos realizados durante esta aula. Caso já tenha feito, excelente. Se ainda não, é importante que você implemente o que foi visto em vídeo para poder continuar com a próxima aula, que tem como pré-requisito todo o código aqui escrito.
 
+- Opinião do instrutor
 
+Não tem dúvidas? Que tal ajudar alguém no fórum? :)
+
+- Exemplo:
+    - newsletter_23
 
 
 
