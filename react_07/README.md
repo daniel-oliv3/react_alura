@@ -475,9 +475,12 @@ Analisando os códigos acima, podemos afirmar que:
 
 
 
+### 21 - Listando tags
 
+**Listando tags**
 
-
+- Exemplo:
+    - newsletter_21
 
 
 
