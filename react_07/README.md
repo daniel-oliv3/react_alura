@@ -360,10 +360,20 @@ Analisando os códigos acima, podemos afirmar que:
     - newsletter_15
 
 
+### 16 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nesta aula:
+    - Configuramos as estruturas de extensão do Tailwind para personalizar o designer;
+    - Implementamos o modo noturno do projeto com Tailwind;
+    - Criamos o modo dark mode e através de classes utilitárias.
 
+- Na próxima aula:
+    - Vamos criar uma lista de artigos e como trabalhar com imagens usando o Tailwind!
 
+- Exemplo:
+    - newsletter_16
 
 
 
