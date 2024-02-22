@@ -454,7 +454,23 @@ Analisando os códigos acima, podemos afirmar que:
 
 
 
+### 20 - Trabalhando com imagens
 
+**Trabalhando com imagens**
+
+- Filters:
+  - Link: https://tailwindcss.com/docs/sepia
+
+- shortbreak
+```jsx
+ { image && <img className="sm:p-4" src={image} /> }
+```
+
+- Screen Readers
+  - Link: https://tailwindcss.com/docs/screen-readers
+
+- Exemplo:
+    - newsletter_20
 
 
 
