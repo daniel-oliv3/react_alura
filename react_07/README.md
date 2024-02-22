@@ -378,7 +378,13 @@ Analisando os códigos acima, podemos afirmar que:
 
 
 
+### 17 - Projeto da aula anterior
 
+**O que aprendemos?**
+
+
+- Exemplo:
+    - newsletter_17
 
 
 
