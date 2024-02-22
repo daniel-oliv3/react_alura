@@ -314,7 +314,50 @@ module.exports = {
 
 
 
+### 15 - Informações do sistema
 
+**Informações do sistema**
+
+Nesta aula, aprendemos que podemos usar recursos incríveis do Tailwind e descobrir se o navegador está usando o modo dark ou não.
+
+Porém, para aplicar essa funcionalidade, tínhamos seguinte código:
+
+```jsx
+useEffect(() => {
+systemPreferences && document.documentElement.classList.add('dark')
+})
+const toggle = () => {
+    document.documentElement.classList.toggle('dark')
+}
+```
+
+- E alteramos para:
+
+```jsx
+const pageClasses = document.documentElement.classList
+
+useEffect(() => {
+systemPreferences && pageClasses.add('dark')
+})
+const toggle = () => {
+    pageClasses.toggle('dark')
+}
+```
+
+Analisando os códigos acima, podemos afirmar que:
+
+- Selecione uma alternativa
+
+- A: O modo dark será aplicado apenas quando o navegador estiver no modo light.
+
+
+- B: O modo dark ou light será aplicado conforme o modo escolhido pelo sistema operacional.
+`Isso mesmo! Além do modo ser definido pelo sistema operacional, pensamos em deixar o código mais claro e mais legível através da variável pageClasses.`
+
+- C: O modo dark não será mais aplicado.
+
+- Exemplo:
+    - newsletter_15
 
 
 
