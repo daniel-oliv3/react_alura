@@ -396,7 +396,7 @@ Analisando os códigos acima, podemos afirmar que:
 
 **Criando a lista de artigos**
 
-- Criar o arquivo `articles.json`
+- Criar o arquivo `articles.json` na raiz do projeto
 
 ```json
 [
@@ -443,7 +443,12 @@ Analisando os códigos acima, podemos afirmar que:
     - newsletter_18
 
 
+### 19 - Estilizando a lista
 
+**Estilizando a lista**
+
+- Exemplo:
+    - newsletter_19
 
 
 
