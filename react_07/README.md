@@ -554,7 +554,12 @@ Não tem dúvidas? Que tal ajudar alguém no fórum? :)
     - newsletter_25
 
 
+### 26 - Adicionando o formulário
 
+**Adicionando o formulário**
+
+- Exemplo:
+    - newsletter_26
 
 
 
