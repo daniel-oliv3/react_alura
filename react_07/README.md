@@ -570,7 +570,12 @@ Não tem dúvidas? Que tal ajudar alguém no fórum? :)
     - newsletter_27
 
 
+### 28 - Diretivas e animações
 
+**Diretivas e animações**
+
+- Exemplo:
+    - newsletter_28
 
 
 
