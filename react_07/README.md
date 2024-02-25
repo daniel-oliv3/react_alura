@@ -580,12 +580,39 @@ Não tem dúvidas? Que tal ajudar alguém no fórum? :)
 
 
 
+### 29 - Pseudo elementos - Parte 1
+
+**Pseudo elementos - Parte 1**
+
+- Tailwindcss
+    - Site: https://tailwindcss.com/
+
+- Handling Hover, Focus, and Other States
+    - Link: https://tailwindcss.com/docs/hover-focus-and-other-states
 
 
+- Tailwind inclui modificadores para quase tudo que você precisa, incluindo:
+
+- *Pseudoclasses* , como `:hover`, `:focus`, `:first-childe` e `:required`
+- *Pseudoelementos* , como `::before`, `::after`, `::placeholder`, e `::selection`
+- *Consultas de mídia e recursos* , como pontos de interrupção responsivos, modo escuro eprefers-reduced-motion
+- *Seletores de atributos* , como `[dir="rtl"]` e `[open]`
 
 
+- Animation
+    - https://tailwindcss.com/docs/animation
 
 
+- Exemplo:
+    - newsletter_29
+
+
+### 30 - Pseudo elementos - Parte 2
+
+**Pseudo elementos - Parte 2**
+
+- Exemplo:
+    - newsletter_30
 
 
 
