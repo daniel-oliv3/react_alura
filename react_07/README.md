@@ -652,8 +652,17 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
     - newsletter_32
 
 
+##
+### Parte 5 - Recursos avançados
+##
 
 
+### 33 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+    - newsletter_33
 
 
 
