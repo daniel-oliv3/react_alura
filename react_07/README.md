@@ -615,7 +615,26 @@ Não tem dúvidas? Que tal ajudar alguém no fórum? :)
     - newsletter_30
 
 
+### 31 - Classes utilitárias
 
+**Classes utilitárias**
+
+Quando utilizamos classes utilitárias, é importante estar atento com qual melhor se encaixa no contexto em que estamos, como vimos em aula para posicionar com o formulário e usamos o `h-full` e `h-screen`.
+
+Analisando as alternativas a seguir e marque apenas as verdadeiras em relação a essas classes utilitárias.
+
+- Selecione uma alternativa
+
+- A: h-screen determina o tamanho total da altura da viewport.
+`Isso mesmo! h-screen é usado para fazer um elemento abranger toda a altura da viewport.`
+
+- B: h-full é uma classe utilitária que pode ser usada quando queremos determinar a altura total da tela, como 100vh.
+
+
+- C: Usamos o h-screen para definir a altura de um elemento para 100% de seu elemento pai.
+
+- Exemplo:
+    - newsletter_31
 
 
 
