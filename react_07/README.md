@@ -637,7 +637,19 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
     - newsletter_31
 
 
+### 32 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Nesta aula:
+    - Criamos o formulário que será exibido antes da listagem de cards;
+    - Desenvolvemos os utilitários de botão e foco de input, além de adicionar animações para esses utilitários.
+
+- Na próxima aula:
+    - Vamos criar componentes customizados e aprofundar na arquitetura do Tailwind!
+
+- Exemplo:
+    - newsletter_32
 
 
 
