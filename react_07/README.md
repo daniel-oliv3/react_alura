@@ -668,7 +668,16 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
 
 
 
+### 34 - As camadas do Tailwind
 
+**As camadas do Tailwind**
+
+- Core Concepts
+    - Functions & Directives
+    - Link: https://tailwindcss.com/docs/functions-and-directives
+
+- Exemplo:
+    - newsletter_34
 
 
 
