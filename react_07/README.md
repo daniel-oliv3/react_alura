@@ -798,7 +798,16 @@ Ao analisar tudo que foi desenvolvido neste curso, podemos afirmar que:
     - newsletter_39
 
 
+### 40 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Nesta aula:
+    - Aprofundamos nosso conhecimento na arquitetura do Tailwind e como ela funciona;
+    - Aprendemos como customizar e criar nossos próprios componentes.
+
+- Exemplo:
+    - newsletter_40
 
 
 
