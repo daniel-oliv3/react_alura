@@ -790,7 +790,12 @@ Ao analisar tudo que foi desenvolvido neste curso, podemos afirmar que:
 
 
 
+### 39 - Projeto final do curso
 
+**Projeto final do curso**
+
+- Exemplo:
+    - newsletter_39
 
 
 
