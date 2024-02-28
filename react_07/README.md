@@ -684,7 +684,12 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
 
 
 
+### 35 - Componentes customizados
 
+**Componentes customizados**
+
+- Exemplo:
+    - newsletter_35
 
 
 
