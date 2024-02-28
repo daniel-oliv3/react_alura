@@ -703,3 +703,145 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
 
 - Exemplo:
     - newsletter_36
+
+
+### 37 - Plugins e Build
+
+**Plugins e Build**
+
+- TailwindCSS
+    - Link: https://tailwindcss.com/
+
+- Official Plugins:
+    - Typography: https://github.com/tailwindlabs/tailwindcss-typography
+
+- Line-Clamp: 
+    - Link: https://tailwindcss.com/docs/line-clamp
+
+- Install Line-Clamp
+```
+yarn add -D @tailwindcss/line-clamp
+```
+
+- Copiar trecho de código paraa o arquivo `tailwind.config.js`
+```js
+/* --- tailwind.config.js --- */
+module.exports = {
+  theme: {
+    //...
+  },
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    //...
+  ], 
+}
+```
+
+- Optimizing for Production
+    - Link: https://tailwindcss.com/docs/optimizing-for-production
+
+- Copiar trecho de código paraa o arquivo `postcss.config.js`
+```js
+/* --- postcss.config.js --- */
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
+  },
+}
+```
+
+- CSSNano
+```
+yarn add cssnano
+```
+
+- Build
+```
+yarn build
+```
+
+- Exemplo:
+    - newsletter_37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
