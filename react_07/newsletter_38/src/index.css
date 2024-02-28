@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-gray-100 text-xl sm:hover:text-2xl sm:cursor-pointer
+    }
+}
+
+
+@layer components {
+    .alura-input {
+        @apply py-1 pl-5 w-full max-w-lg dark:bg-dark-200 text-dark-200 dark:text-gray-200 rounded-full outline-none placeholder:text-gray-400 placeholder:dark:text-gray-600 placeholder:text-xs placeholder:uppercase placeholder:font-bold focus:border-2 focus:border-alura-200 focus:dark:border-alura-100 invalid:focus:border-2 invalid:focus:border-red-400 invalid:focus:dark:border-2 invalid:focus:dark:border-red-400 caret-alura-200 dark:caret-alura-100;
+    }
+
+    .alura-button {
+        @apply py-1 px-5 w-full max-w-sm bg-alura-100 dark:bg-dark-200 rounded-full text-gray-200 uppercase outline-none hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black hover:-translate-y-1 hover:delay-200;
+    }
+
+    .alura-card {
+        @apply p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex gap-2 flex-col items-center sm:hover:shadow-gray-500 sm:hover:dark:shadow-black sm:hover:shadow-lg;
+    }
+
+    .alura-tag {
+        @apply bg-alura-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 text-xs font-bold uppercase hover:scale-110 hover:bg-gradient-to-r hover:from-alura-200; /*sem hover o pink-400*/
+    }
+}
+
+
+

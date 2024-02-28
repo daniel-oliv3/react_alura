@@ -766,11 +766,26 @@ yarn build
     - newsletter_37
 
 
+### 38 - Sobre o Tailwind
+
+**Sobre o Tailwind**
+
+Durante todo o treinamento, aplicamos diferentes estilos através das classes utilitárias do Tailwind. Criamos o tema do projeto, desenvolvemos diferentes modos como dark e light, trabalhamos com ícones e estilizamos um formulário do zero.
+
+Ao analisar tudo que foi desenvolvido neste curso, podemos afirmar que:
+
+- Selecione uma alternativa
+
+- A: O Tailwind foi construído desde o início para ser super personalizável.
+`Isso aí! Apesar de possuir inúmeras classes utilitárias, o Tailwind possibilita e encoraja a estilização de praticamente tudo, desde cores, tamanhos de espaçamento e fontes, por exemplo, muita facilidade e vimos isso de forma prática.`
+
+- B: O Tailwind não fornece uma nomenclatura ou organização dos estilos, o que torna os projetos inconsistentes.
 
 
+- C: Todos os utilitários do Tailwind não são gerados com versões responsivas que você pode usar para tornar seu site diferente em tamanhos de tela de celular, tablet e desktop.
 
-
-
+- Exemplo:
+    - newsletter_38
 
 
 
