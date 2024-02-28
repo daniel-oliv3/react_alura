@@ -694,5 +694,12 @@ Analisando as alternativas a seguir e marque apenas as verdadeiras em relação 
 
 
 
+### 36 - Retrospectiva
 
+**Retrospectiva**
 
+- TailwindCSS
+    - Link: https://tailwindcss.com/
+
+- Exemplo:
+    - newsletter_36
