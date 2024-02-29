@@ -58,52 +58,65 @@ npm start
 
 - Preparando o ambiente
 
-É muito bom receber você neste curso, que é o segundo da formação focada no projeto AluraBooks.
+É muito bom receber você neste curso.
 
-Espero que seja uma experiência de aprendizado incrível e que possamos vencer todos os desafios juntos. Neste curso, vamos desenvolver a autenticação do AluraBooks
+Espero que seja uma experiência de aprendizado incrível e que possamos vencer todos os desafios juntos. Neste curso, vamos criar uma biblioteca de componentes. Isso mesmo!
 
-Nós vamos criar a rotina de cadastro de novos usuários e a autenticação em si. Além disso, vamos aprender a interceptar requisições com o axios, adicionando ao cabeçalho das requisições um token de segurança.
+Existem algumas bibliotecas prontas para uso, como por exemplo o Ant e o MUI, mas elas já possuem toda uma identidade visual.
 
-Além de muita mão na massa, vamos entender alguns conceitos importantes que estão relacionado ao nosso dia a dia:
+- Link: https://ant.design/docs/react/introduce
 
-- autenticação
-- autorização
-- segurança
+Nesse curso, nós vamos criar e disponibilizar quatro componentes:
 
-Se você ainda não fez o curso `React: desenvolvendo uma biblioteca de componentes`, você pode utilizar esse pacote aqui.
+- Botão
+- CampoTexto
+- Card
+-InputQuantidade
 
-- Link: https://www.npmjs.com/package/ds-alurabooks
-
-Mas eu queria, de dev para dev, te propor um desafio:
-
-<p align="center">
-  <img alt="...." src="./src/aula1-imagem1.png" width="60%">
-</p>
-
-
-Vamos precisar da página inicial do Alura Books para a primeira aula. E é esse o projeto do link acima. Mas, cá entre nós, seria um desafio super bacana desenvolver a página do zero, não é mesmo?
-
-O link do figma é esse aqui, eu super recomendo você mergulhar de cabeça nesse desafio e transformar esse desenho do figma numa tela. Isso é o desafio do dia a dia das pessoas que trabalham com front-end, então tenho certeza que será uma prática valiosa para você. E lembre-se: sempre que precisar, pode dar uma espiadela no projeto base para buscar inspirações. Não esqueça também que o fórum é uma ferramenta incrível para troca de experiências e tiradas de dúvidas. E eu procuro sempre estar presente por lá, então, use e abuse!
-
-Atenção:
+Mas não é só isso. Nós vamos publicar essa biblioteca no NPM. E, além disso, configurar uma Action no Github para, sempre que tivermos novos commits na branch principal, publicarmos automaticamente uma nova versão.
 
 Este curso é indicado para aqueles que já possuem conhecimento em React e querem mergulhar ainda mais fundo nessa área.
 
 Para conseguir acompanhar a criação da aplicação em React, é necessário que você tenha o Node instalado. Você pode baixá-lo aqui. A versão do node utilizada nas aulas foi a: v16.13.2.
 
+- Projeto inicial
+
+Nós vamos usar um set de ferramentas de compilação e versionamento, e pra isso, você pode clonar o projeto inicial do repositório no Github.
+
+Depois de clonar o projeto, você precisa alterar dois campos do arquivo package.json:
+
+"name": altere para um nome customizado. O valor atual é "ds-alurabooks-base" e esse valor precisa ser único, caso contrário a gente não consegue publicar no NPM.
+"author": coloque o seu nome, afinal, é o seu pacote que vai ser publicado no fim do curso!
+Nesse projeto, nós não vamos utilizar o npm, mas sim o yarn.
+
+Caso você não tenha ele disponível, execute o comando:
+
+```
+npm i -g yarn
+```
+
+E, logo depois, o seguinte comando (lembre de entrar no diretório raiz do projeto antes):
+
+```
+yarn
+```
+Isso vai instalar todas as dependências do projeto e você vai estar pronto para começar a desenvolver!
+
+Atenção!
+Esse curso vai utilizar o Storybook na versão 6. Se você precisa trabalhar com a versão 7, dá uma olhada nessa formação de Next.js e Tailwind.
+
 E antes de você começar, vou te dar um pequeno spoiler:
 
-Esse curso está repleto de desafios. Com dificuldades variadas. Todos eles tem um gabarito, mas para ter um bom proveito do conteúdo e praticar bastante, eu recomendo muito que você invista tempo neles.
+Esse curso está repleto de desafios e com dificuldades variadas. Todos eles têm um gabarito, mas para ter um bom proveito do conteúdo e praticar bastante e recomendo muito que você invista tempo neles.
 
 Além disso, também deixei bastante material de apoio nas aulas, para que você se aprofunde em assuntos que não são o foco principal desse curso aqui.
 
-Bora então começar? Vem comigo!
-
- DISCUTIR NO FÓRUM
+Vamos começar? Vem comigo descobrir como é bacana publicar uma biblioteca no NPM e compartilhar com as pessoas que conhecemos.
 
 - Figma:
-    - Link 1: https://www.figma.com/file/dkGogcES2G1lwH8hwrF3E6/React%3A-Alura-Books?type=design&node-id=119-3145&mode=design&t=4iqYnOYRODShWZFi-0
-    - Link 2: https://www.figma.com/file/dkGogcES2G1lwH8hwrF3E6/React%3A-Alura-Books?type=design&node-id=119-3145&mode=design&t=feNORtY1v1P49J9X-0
+    - Link: https://www.figma.com/file/dkGogcES2G1lwH8hwrF3E6/React%3A-Alura-Books?type=design&node-id=119-3145&mode=design&t=4iqYnOYRODShWZFi-0
+- Github:
+    - Link: https://github.com/viniciosneves/ds-alurabooks-base
 
 - Exemplo:
     - react_book_02
