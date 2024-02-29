@@ -20,3 +20,5 @@
 
 ### 7 - React com TailwindCSS: estilizando componentes
 
+### 8 - React: desenvolvendo uma biblioteca de componentes
+
