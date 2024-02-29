@@ -812,9 +812,12 @@ Ao analisar tudo que foi desenvolvido neste curso, podemos afirmar que:
 
 
 
+### 41 - Conclusão
 
+**Conclusão**
 
-
+- Exemplo:
+    - newsletter_41
 
 
 
