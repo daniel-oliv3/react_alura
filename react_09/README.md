@@ -233,14 +233,16 @@ Nessa aula, você aprendeu como:
 - Exemplo:
     - react_studies_09
 
+##
+### Parte 2 - Componentização
+##
 
 
 
+### 10 - Projeto da aula anterior
 
-
-
-
-
+- Exemplo:
+    - react_studies_10
 
 
 
