@@ -241,14 +241,19 @@ Nessa aula, você aprendeu como:
 
 ### 10 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
 - Exemplo:
     - react_studies_10
 
 
 
+### 11 - Criando um componente
 
+**Criando um componente**
 
-
+- Exemplo:
+    - react_studies_11
 
 
 
