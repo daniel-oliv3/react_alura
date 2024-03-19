@@ -256,7 +256,64 @@ Nessa aula, você aprendeu como:
     - react_studies_11
 
 
+### 12 - Para saber mais: Sobre componentes
 
+**Para saber mais: Sobre componentes**
+
+Dentre todas as vantagens que o React nos proporciona, a componentização é uma das mais conhecidas, além de ser uma das marcas do React.
+
+Vamos ver a criação de um class componente:
+
+```jsx
+class Botao extends React.Component {
+  render() {
+   return (
+      <button>
+        Botão
+      </button>
+    )
+ }
+}
+```
+
+Só com esse pequeno componente, podemos ter várias informações interessantes, vamos separá-las em informações sobre componentização (em geral, tanto class components quanto function components) tanto sobre class components especificamente.
+
+- Sobre Componentização
+
+Nome do Componente
+
+O nome do componente deverá começar com letra maiúscula, mas por que?
+
+Existe uma possibilidade no html de criar web-components, que nos permite criar tags html totalmente customizadas. Entre essas customizações, podemos customizar o nome da tag!
+
+Para o React diferenciar um componente de um web-component, ele pede para que criemos um componente com a primeira letra maiúscula, assim ele consegue diferenciar por exemplo que `<meuBotao />` é um web-component e `<MeuBotao />` é um componente!
+
+- return e JSX
+
+Para podermos criar um componente, fora a regra que citamos acima, precisamos retornar JSX, e o que seria isso exatamente?
+
+O JSX é uma forma de "escrever HTML no JS", que é a forma que explicamos, mas não é exatamente isso.
+
+O JSX não transforma o componente <Botao /> em HTML diretamente, antes disso, ele é transformado em uma elemento React, e aquele código é transformado em algo assim:
+
+```js
+const Botao = React.createElement('button', {}, 'Botão');
+```
+
+Caso você precise fazer isso, leia sobre React.Fragment.
+
+Sobre class Components
+
+- React.Component e render
+
+Para criarmos um componente com class components, precisamos estender à classe `React.Component`. Nesta classe, existe apenas uma função obrigatória chamada `render` e, dentro dela, nós retornamos o JSX que precisamos para criar o componente!
+
+- React.Fragment: https://pt-br.legacy.reactjs.org/docs/react-api.html#reactfragment
+- Web Components: https://developer.mozilla.org/pt-BR/docs/Web/API/Web_components
+- JSX: https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html
+
+- Exemplo:
+    - react_studies_12
 
 
 
