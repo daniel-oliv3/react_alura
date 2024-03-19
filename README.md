@@ -22,3 +22,4 @@
 
 ### 8 - React: desenvolvendo uma biblioteca de componentes
 
+### 9 - React: escrevendo com Typescript (Studies)
