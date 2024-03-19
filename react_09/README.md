@@ -107,7 +107,28 @@ Agora podemos começar!
 
 
 
+### 5 - Criando o projeto
 
+**Criando o projeto**
+
+- criar o projeto react (TypeScript)
+```
+npx create-react-app --template typescript --use-npm react_studies_05
+```
+
+- --use-npm não fucuncionou
+- `npx create-react-app --template typescript react_studies_05`
+
+- Roda o projeto
+```
+npm start
+```
+
+- Localhost:
+    - Link: http://localhost:3000/
+
+- Exemplo:
+    - react_studies_05
 
 
 
