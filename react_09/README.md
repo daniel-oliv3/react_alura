@@ -57,3 +57,23 @@ npm start
     - react_studies_02
 
 
+### 3 - Preparando o ambiente: Linux
+
+**Preparando o ambiente: Linux**
+
+Para preparar o ambiente, precisaremos ter algumas coisas instaladas no computador, sendo elas:
+
+-   Nodejs:
+    -   Para instalar o Node, abra o terminal e digite sudo apt install nodejs
+    -   Para conferir se o download ocorreu corretamente, digite node -v ou node --version
+    -   Link: https://nodejs.org/pt-br/
+-    Git
+    -   Para instalar o git, abra o terminal e digite sudo apt install git-all
+    -   Para conferir se o download ocorreu corretamente, digite git --version
+    -   Link: https://git-scm.com/download/linux
+-   Visual Studio Code
+    -   Entre no link e baixe a versão de Linux.
+    -   Link: https://code.visualstudio.com/download
+
+- Exemplo:
+    - react_studies_03
