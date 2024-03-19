@@ -118,6 +118,8 @@ npx create-react-app --template typescript --use-npm react_studies_05
 
 - --use-npm não fucuncionou
 - `npx create-react-app --template typescript react_studies_05`
+- Modo certo
+- `npx create-react-app react_studies_05 --template typescript --use-npm`
 
 - Roda o projeto
 ```
@@ -210,11 +212,12 @@ Caso o yarn esteja instalado na sua máquina, o Create React App prioriza à uti
 
 
 
+### 8 - Entendendo o projeto
 
+**Entendendo o projeto**
 
-
-
-
+- Exemplo:
+    - react_studies_08
 
 
 
