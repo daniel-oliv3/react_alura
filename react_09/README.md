@@ -131,9 +131,40 @@ npm start
     - react_studies_05
 
 
+### 6 - Inicializando nosso projeto
+
+**Inicializando nosso projeto**
 
 
+Quando trabalhamos com React, podemos criar o projeto do zero, adicionando todos os arquivos necessários para trabalhar com essa biblioteca, ou podemos utilizar um único comando chamado de Create React App.
 
+Sabendo disso, quais os comandos corretos utilizados no terminal para:
+
+- Criar um projeto React com Typescript utilizando npm com Create React App
+- Entrar na pasta do projeto
+- Rodar o projeto?
+
+- Selecione uma alternativa
+
+- A: npx create react app projeto -template typescript |
+cd projeto | npm run project
+
+- B: npx create react-app projeto -template typescript |
+cd projeto/ | npm start
+
+- C: npm create react-app projeto template --typescript |
+cd projeto/ | npm run project
+
+- D: npx create-react-app projeto template --typescript |
+cd projeto/ | npm run project
+
+- E: npx create react app projeto -template typescript |
+cd projeto | npm start
+
+- F: npx create-react-app projeto --template typescript
+--use-npm | cd projeto | npm start
+
+`Alternativa correta! O comando create-react-app projeto --template typescript cria o projeto com a linguagem TypeScript, o comando cd projeto entra na pasta desse projeto criado e o comando npm start roda o projeto.`
 
 
 
