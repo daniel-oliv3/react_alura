@@ -77,3 +77,92 @@ Para preparar o ambiente, precisaremos ter algumas coisas instaladas no computad
 
 - Exemplo:
     - react_studies_03
+
+
+### 4 - Preparando o ambiente: Mac
+
+**Preparando o ambiente: Mac**
+
+Para preparar o ambiente, precisaremos ter algumas coisas instaladas no computador e, para isso, utilizaremos um controle de pacotes para mac super útil chamado Homebrew. Caso não tenha ele instalado, só clicar no link e seguir o comando que ele descreve para o download. Após isso, faremos download das nossas dependências para rodar o projeto, sendo elas:
+
+- homebrew: https://brew.sh/pt-br/
+
+- Nodejs/npm
+    - Para instalar o Node na sua máquina, clique no link e baixe a versão LTS (versão recomendada)
+    - Para verificar se foi instalado corretamente, abra o terminal e escreva node -v ou node --
+    - Node: https://nodejs.org/en/download/
+- Git
+    - Para instalar o git, abra o terminal e digite brew install git
+    - Para verificar se o git foi instalado corretamente, abra o terminal e escreva git --version
+    - Git: https://git-scm.com/download/mac
+- Visual Studio Code
+    - Entre no link e baixe a versão de Mac.
+    - Vscode: https://code.visualstudio.com/download
+
+Agora podemos começar!
+
+- Exemplo:
+    - react_studies_04
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
