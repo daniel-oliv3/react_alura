@@ -167,6 +167,8 @@ cd projeto | npm start
 `Alternativa correta! O comando create-react-app projeto --template typescript cria o projeto com a linguagem TypeScript, o comando cd projeto entra na pasta desse projeto criado e o comando npm start roda o projeto.`
 
 
+- Exemplo:
+    - react_studies_06
 
 
 
@@ -178,13 +180,33 @@ cd projeto | npm start
 
 
 
+### 7 - Faça como eu fiz: Criar um projeto typescript com CRA
+
+**Faça como eu fiz: Criar um projeto typescript com CRA**
 
 
+Execute o Create React App sem instalá-lo, criando um projeto chamado alura-studies com o template typescript e informando que o projeto usará o npm.
 
 
+Opinião do instrutor
+
+`npx create-react-app alura-studies --template typescript --use-npm`
+Com esse comando, estamos informando várias coisas, sendo elas:
+
+- npx
+- O comando npx, diferente do comando npm, apenas executa um pacote, sem que precisemos instalá-lo na nossa máquina, como o create-react-app normalmente só é usado no começo para criar o projeto, o ideal é executar com npx pois isso fará com que você sempre execute a última versão do pacote.
+- create-react-app
+O nome do pacote que queremos executar.
+- alura-studies
+O nome do projeto que queremos, assim como o nome da pasta.
+- --template typescript
+O Create React App nos permite usar vários templates, tendo como sintaxe o --template, que diz pro terminal que logo após iremos dizer qual template gostaríamos de usar, e o nome do template em si. O Create React App já tem o template typescript criado, mas caso tenha algum template que queira usar e não existe, você também pode criar o seu!,
+- --use-npm
+Caso o yarn esteja instalado na sua máquina, o Create React App prioriza à utilização dele, e isso irá gerar um yarn.lock dentro da nossa aplicação, e nós queremos utilizar o npm ao invés do yarn, por isso precisamos usar o comando --use-npm se quisermos garantir que o Create React App utilize o npm para instalar as dependências necessárias e também garantir que ele gere o package-lock.json ao invés do yarn.lock.
 
 
-
+- Exemplo:
+    - react_studies_07
 
 
 
