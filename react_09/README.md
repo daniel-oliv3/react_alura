@@ -427,9 +427,25 @@ Dessa forma, estamos utilizando o array de forma dinâmica, renderizando as tare
 
 
 
+### 18 - O que aprendemos?
 
+**O que aprendemos?**
 
+Nessa aula, você aprendeu como:
 
+- Funciona a pasta public;
+    - Abordamos sobre a pasta public, para que ela serve e por que raramente mexemos nela, mostramos também o arquivo index.html e como que o React popula ele com os componentes.
+- Criar um componente com class component e como utilizá-lo;
+    - Criamos um componente com class component, mostrando toda a sintaxe desde o extends até o retorno e o export.
+- O que é JSX;
+    - Vimos que o React retorna na verdade um JSX, não um HTML, também falamos de algumas diferenças entre os dois.
+- Criar um function component;
+    - Também criamos um componente com function component (a forma mais atual de se escrever componentes desde a versão 16.8), e mostramos como é mais simples criarmos dessa forma.
+- Utilizar o método map para renderizar arrays.
+    - Renderizamos arrays de JSX com o método map, mostrando que assim conseguimos aproveitar parte do JSX e mudar apenas o valor de item para item, utilizando assim o princípio DRY (Don't Repeat Yourself).
+
+- Exemplo:
+    - react_studies_18
 
 
 
