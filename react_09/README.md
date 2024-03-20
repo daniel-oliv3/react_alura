@@ -332,11 +332,26 @@ Para criarmos um componente com class components, precisamos estender à classe 
     - react_studies_14
 
 
+### 15 - Renderizando um array
 
+**Renderizando um array**
 
+- OBS:
+- Retorno ()
+```tsx
+{tarefas.map((tarefa, index) => (
+    //returna
+))}
+```
+- Escopo {}
+```tsx
+{tarefas.map((tarefa, index) => {
+    //escopo
+})}
+```
 
-
-
+- Exemplo:
+    - react_studies_15
 
 
 
