@@ -355,7 +355,41 @@ Para criarmos um componente com class components, precisamos estender à classe 
 
 
 
+### 16 - Renderização dinâmica de arrays
 
+**Renderização dinâmica de arrays**
+
+Temos esse array:
+
+```tsx
+const tarefas = [{ tarefa: 'React' }, { tarefa: 'Javascript' }, { tarefa: 'Typescript '}];
+```
+
+Qual é a alternativa que utiliza um método de array de forma correta para renderizar essas tarefas, colocando cada tarefa desse array dentro de um p?
+
+- Selecione uma alternativa
+
+- A:
+```tsx
+tarefas.map(item => <p> {item} </p>)
+```
+- B:
+```tsx
+tarefas.map(item => {<p> {item.tarefa} </p>})
+```
+- C:
+```tsx
+tarefas.forEach(item => <p> {item.tarefa} </p>)
+```
+-D:
+```tsx
+tarefas.map(item => <p> {item.tarefa} </p>)
+```
+`Alternativa correta! O map retorna um outro array, e como não foi utilizada chaves, ele está retornando um array de JSX, isso retorna os itens como esperado!`
+
+
+- Exemplo:
+    - react_studies_16
 
 
 
