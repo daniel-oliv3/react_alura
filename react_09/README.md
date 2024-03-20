@@ -448,6 +448,17 @@ Nessa aula, você aprendeu como:
     - react_studies_18
 
 
+##
+### Parte 2 - Usando CSS
+##
+
+
+### 19 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+    - react_studies_19
 
 
 
