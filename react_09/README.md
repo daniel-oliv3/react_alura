@@ -316,5 +316,9 @@ Para criarmos um componente com class components, precisamos estender à classe 
     - react_studies_12
 
 
+### 13 - Criando o formulário
 
+**Criando o formulário**
 
+- Exemplo:
+    - react_studies_13
