@@ -461,7 +461,12 @@ Nessa aula, você aprendeu como:
     - react_studies_19
 
 
+### 20 - Aprendendo a estilizar
 
+**Aprendendo a estilizar**
+
+- Exemplo:
+    - react_studies_20
 
 
 
