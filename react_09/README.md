@@ -393,9 +393,37 @@ tarefas.map(item => <p> {item.tarefa} </p>)
 
 
 
+### 17 - Faça como eu fiz: Utilizando o map
+
+**Faça como eu fiz: Utilizando o map**
+
+Crie um `function component` Lista dentro do arquivo `src/components/Lista/index.tsx`. O componente contém um array chamado tarefas tendo 2 objetos representando cada tarefa, uma das tarefas é `React` e o tempo é 02:00:00 e o outro é `Javascript`, que tem o tempo de 01:00:00.
+
+Após isso, retorne uma `div`, depois renderize esse array utilizando o método map, retornando cada item dentro de uma tag `div`, a tarefa dentro de uma tag `h3` e o tempo dentro de uma tag `span`. Não esqueça de utilizar o index como `key`;
 
 
+- Opinião do instrutor
 
+```tsx
+function Lista() {
+  const tarefas = [{ tarefa: 'React', tempo: '02:00:00' }, { tarefa: 'Javascript', tempo: '01:00:00'  }]
+  return (
+    <div>
+      {tarefas.map((item, index) => (
+        <div key={index}>
+          <h3> {item.tarefa} </h3>
+          <span> {item.tempo} </span>
+        </div>
+      ))}
+    </div>
+  )
+}
+```
+
+Dessa forma, estamos utilizando o array de forma dinâmica, renderizando as tarefas de acordo com o array logo, se por acaso colocarmos de forma manual um item no array, o React entenderá que existe um novo item e renderizará a lista com o novo item! Isso além de ser muito legal respeita um dos conceitos que estamos comentando nesse curso, o Don't repeat yourself / Não se Repita (DRY), que não precisaremos repetir a estrutura JSX, apenas dizemos como gostaríamos que o React renderize nossos itens e ele se encarrega do resto!
+
+- Exemplo:
+    - react_studies_17
 
 
 
