@@ -470,7 +470,21 @@ Nessa aula, você aprendeu como:
 
 
 
+### 21 - Estilizando com Sass
 
+**Estilizando com Sass**
+
+- Sass:
+    - Site: https://www.npmjs.com/package/sass
+
+
+- Instalando o Sass via terminal
+```
+npm install --save-dev sass
+```
+
+- Exemplo:
+    - react_studies_21
 
 
 
