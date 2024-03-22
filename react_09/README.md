@@ -488,7 +488,39 @@ npm install --save-dev sass
 
 
 
+### 22 - Usando CSS Modules
 
+**Usando CSS Modules**
+
+- CSS Modules:
+    - Link: https://www.npmjs.com/package/typescript-plugin-css-modules
+
+- Instalando o CSS Modules, via terminal
+```
+npm install -D typescript-plugin-css-modules
+```
+
+- `tsconfig.json`
+
+```tsx
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
+```
+
+- hash aleatoria, `App_AppStyle_hash`
+
+- exp
+
+```tsx
+<div className={style["novaTarefa__-container"]}>
+    // code ....
+</div>
+```
+- Exemplo:
+    - react_studies_22
 
 
 
