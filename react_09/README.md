@@ -510,7 +510,7 @@ npm install -D typescript-plugin-css-modules
 }
 ```
 
-- hash aleatoria, `App_AppStyle_hash`
+- hash aleatória, `App_AppStyle_hash`
 
 - exp
 
@@ -523,26 +523,124 @@ npm install -D typescript-plugin-css-modules
     - react_studies_22
 
 
+### 23 - Importando CSS Modules
+
+**Importando CSS Modules**
+
+Temos essa estrutura de arquivos:
+
+```tsx
+components/
+  botao/
+    index.tsx
+   Botao.module.scss
+```
+
+Com o CSS Modules já configurado na aplicação, como conseguimos importar e utilizar o CSS Modules no arquivo index.tsx, sabendo que dentro de Botao.module.scss existe uma classe botao?
+
+Selecione uma alternativa
+
+- A: 
+
+```tsx
+import 'Botao.module.scss';
+
+<button className="botao"> … </button>
+```
+
+- B: 
+
+```tsx
+import style from './Botao.module.scss';
+
+<button class={style.botao}> … </button>
+```
+
+- C: 
+
+```tsx
+import style from './Botao.module.scss';
+
+<button className={style.botao}> … </button>
+```
+
+`Alternativa correta! Dessa forma conseguimos importar dizendo onde nosso módulo está e colocando as classes CSS dentro de um objeto JS!`
+
+
+- D: 
+
+```tsx
+import style from 'Botao.module.scss';
+
+<button className={style.botao}> … </button>
+```
+
+- E: 
+
+```tsx
+import { style } from './Botao.module.scss';
+
+<button className={style.botao}> … </button>
+```
+
+- Exemplo:
+    - react_studies_23
 
 
 
+### 24 - Para saber mais: Sobre CSS Modules
+
+**Para saber mais: Sobre CSS Modules**
+
+Muito legal o CSS Modules né? Mas tem várias outras curiosidades e vantagens que não mencionamos no vídeo!
+
+Você sabia que podemos importar o CSS Modules de várias formas diferentes? Ou que podemos utilizar vários módulos no mesmo componente?
+
+Pois é, o CSS Modules é bem mais complexo e interessante do que imaginamos e, se irmos bem a fundo nessa tecnologia, podemos deixar o nosso código bem mais interessante!
+
+Sobre Imports
+Para começar, o CSS Modules nos dá o CSS em formato object e os exporta como default, logo, podemos importar das seguintes formas:
 
 
+```tsx
+import style from './NomeDoComponente.module.scss';
+```
+
+```tsx
+import * as style from './NomeDoComponente.module.scss';
+```
+
+```tsx
+import { default as style } from './NomeDoComponente.module.scss';
+```
+
+Ainda seguindo em como importar um CSS Module, como ele é um export default, podemos nomeá-lo da forma como bem entendermos, por exemplo:
+
+```tsx
+import Foo from './NomeDoComponente.module.scss';
+```
+
+```tsx
+import Bar from './NomeDoComponente.module.scss';
+```
+
+```tsx
+import Banana from './NomeDoComponente.module.scss'
+```
+
+Todas as formas acima retornarão o objeto que o CSS Modules exporta!
+
+Como agora sabemos que podemos nomear o objeto de formas diferentes, podemos também importar vários CSS Modules em um só componente!
+
+```tsx
+import BotaoStyle from './Botao.module.scss';
+import ItemStyle from './Item.module.scss';
+```
+OBS: Todas essas formas citadas acima não são específicas de como importar um CSS Modules, e sim de como importar um export default em JS.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Exemplo:
+    - react_studies_24
 
 
 
