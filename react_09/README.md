@@ -645,11 +645,56 @@ OBS: Todas essas formas citadas acima não são específicas de como importar um
 
 
 
+### 25 - Faça como eu fiz: Transformando CSS em CSS Modules
 
+**Faça como eu fiz: Transformando CSS em CSS Modules**
 
+Transforme o arquivo `src/components/Botao/style.scss` em CSS Modules trocando o nome do arquivo .scss para o nome do componente, instalando o plugin `typescript-plugin-css-modules` como dependência de desenvolvimento e configurando o plugin dentro do arquivo tsconfig.json e importando a classe dentro do arquivo de forma correta dentro de `src/components/Botao/index.tsx`.
 
+- Opinião do instrutor
 
+Dentro do terminal:
 
+```
+npm install -D typescript-plugin-css-modules
+```
+
+Dentro de tsconfig.json:
+
+```json
+{
+  "compilerOptions": {
+     …
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
+```
+
+Mudar o arquivo `src/components/Botao/style.scss` para `src/components/button/Botao.module.scss`
+
+Dentro do arquivo `src/components/Botao/index.tsx`:
+
+```tsx
+import React from 'react';
+import style from './Botao.module.scss;
+
+class Botao extends React.Component {
+  render() {
+    return (
+      <button className={style.botao}>
+        Botão
+      </button>
+    )
+  }
+}
+
+export default Botao;
+```
+
+Com o CSS Modules, a classe que seria apenas botao, será `{nomeDoArquivoCSS}_{nomeDaClasseCSS}__{hashAleatoria}`. É por isso que mudamos nosso arquivo de `style.scss` para `Botao.module.scss`, pois isso faz ficar mais evidente na hora da classe que essa classe vem do componente Botao, fazendo a própria classe ser auto documentada, pois sabemos que é a classe botao vindo do componente Botao.
+
+- Exemplo:
+    - react_studies_25
 
 
 
