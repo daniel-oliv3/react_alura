@@ -698,14 +698,37 @@ Com o CSS Modules, a classe que seria apenas botao, será `{nomeDoArquivoCSS}_{n
 
 
 
+### 26 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+
+- Usar o CSS inline;
+    - Aprendemos como criar o CSS inline direto no atributo, como variável JS e utilizando condicionais para mudar o estilo.
+- Utilizar CSS e Sass no projeto;
+    - Vimos como importar CSS e SASS no projeto é fácil dentro de um projeto criado com Create React App.
+- Colocar o CSS Modules em um projeto com Create React App + Typescript;
+    - Configuramos o projeto para aceitar CSS Modules.
+- Vantagens de se utilizar CSS Modules.
+    - Discutimos as vantagens de se utilizar CSS Modules na aplicação.
 
 
+- Exemplo:
+    - react_studies_26
 
 
+##
+### Parte 4 - Props
+##
 
 
+### 27 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
+- Exemplo:
+    - react_studies_27
 
 
 
