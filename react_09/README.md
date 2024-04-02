@@ -753,7 +753,45 @@ Qual é o prop padrão que o React disponibiliza para poder utilizar JSX como fi
     - react_studies_29
 
 
+### 30 - Faça como eu fiz: Adicionando Props para o Botão
 
+**Faça como eu fiz: Adicionando Props para o Botão**
+
+Troque o texto padrão do componenteBotão dentro de src/components/Botao/index.tsx por um prop children que terá o texto a ser exibido no componente.
+
+- Opinião do instrutor
+
+Dentro de src/components/Botao/index.tsx:
+
+```tsx
+import React from 'react';
+import style from './Botao.module.scss';
+
+class Botao extends React.Component {
+  render() {
+    return (
+      <button clasName={style.botao}>
+        {this.props.children}
+      </button>
+    )
+  }
+}
+
+export default Botao;
+```
+
+Dessa forma, podemos utilizar o componente Botao de forma bem parecida como utilizamos uma tag nativa HTML:
+
+```tsx
+<Botao>
+  Meu botão!
+</Botao>
+```
+
+O React disponibiliza essa prop especial children por padrão para que possamos utilizar o componente dessa forma!
+
+- Exemplo:
+    - react_studies_30
 
 
 
