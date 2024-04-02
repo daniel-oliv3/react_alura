@@ -731,7 +731,12 @@ Com o CSS Modules, a classe que seria apenas botao, será `{nomeDoArquivoCSS}_{n
     - react_studies_27
 
 
+### 28 - Conhecendo Props
 
+**Conhecendo Props**
+
+- Exemplo:
+    - react_studies_28
 
 
 
