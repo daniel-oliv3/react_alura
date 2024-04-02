@@ -739,7 +739,18 @@ Com o CSS Modules, a classe que seria apenas botao, será `{nomeDoArquivoCSS}_{n
     - react_studies_28
 
 
+### 29 - Props padrão para filhos
 
+**Props padrão para filhos**
+
+Desafio proposto pela Luri, a IA da Alura.
+
+Qual é o prop padrão que o React disponibiliza para poder utilizar JSX como filho de um componente React?
+
+- R: Children
+
+- Exemplo:
+    - react_studies_29
 
 
 
