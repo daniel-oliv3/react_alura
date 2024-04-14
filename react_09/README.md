@@ -832,7 +832,12 @@ OBS: Caso você queira saber mais pode acessar à documentação do React ou o m
 
 
 
+### 33 - Criando o cronômetro
 
+**Criando o cronômetro**
+
+- Exemplo:
+    - react_studies_33
 
 
 
