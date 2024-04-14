@@ -862,10 +862,17 @@ Nessa aula, você aprendeu como:
 
 
 
+##
+### Parte 5 - State
+##
 
 
+### 35 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
+- Exemplo:
+    - react_studies_35
 
 
 
