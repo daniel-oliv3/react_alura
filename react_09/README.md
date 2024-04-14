@@ -804,12 +804,31 @@ O React disponibiliza essa prop especial children por padrão para que possamos 
 
 
 
+### 32 - Para saber mais: Sobre Keys (Chaves no React)
+
+**Para saber mais: Sobre Keys (Chaves no React)**
+
+Lembra que os componentes React são criados utilizando JSX não HTML? Então, usando o mesmo processo, o React não cria um DOM, e sim um VDOM (Virtual DOM).
+
+Não entraremos em detalhes neste curso sobre Virtual DOM, porém saiba que o React cria um DOM virtual em memória e só atualiza o DOM real quando algo dentro desse Virtual DOM realmente é atualizado.
+
+Levando isso em consideração, como o React saberia qual seria a cópia no Virtual DOM do item 45 em um array de 50 itens, por exemplo? Ou pior, se o item 47 for removido, como ele vai saber que o item 48, 49 e 50 não foram atualizados? E os outros?
+
+Para isso o React utiliza a propriedade key, que nada mais é que uma chave(AHÁ!) para linkar o item no Virtual DOM no DOM real, por isso não vemos a prop sendo passada para o componente Item, pois essa prop é algo interno no React que não tem utilidade para nós.
+
+Por isso também não é recomendado que se utilize o index do array como key, pois caso o array mude, a possibilidade de vários itens desse array serem atualizados sem necessidade é imensa!
+
+OBS: Caso você queira saber mais pode acessar à documentação do React ou o meu Alura+ sobre performance em listas com React.
+
+- Chaves:
+    - Link: https://pt-br.legacy.reactjs.org/docs/lists-and-keys.html#keys
+- Melhore a performance das suas listas em React:
+    - Link: https://cursos.alura.com.br/extra/alura-mais/melhore-a-performance-das-suas-listas-em-react-c1021
 
 
 
-
-
-
+- Exemplo:
+    - react_studies_32
 
 
 
