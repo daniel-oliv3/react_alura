@@ -795,7 +795,12 @@ O React disponibiliza essa prop especial children por padrão para que possamos 
 
 
 
+### 31 - Refatorando a lista
 
+**Refatorando a lista**
+
+- Exemplo:
+    - react_studies_31
 
 
 
