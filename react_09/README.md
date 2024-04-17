@@ -909,7 +909,34 @@ export default Botao;
 
 
 
+### 37 - useState
 
+**useState**
+
+Fazendo esse código aqui:
+
+```jsx
+ const [texto, setTexto] = useState('meu estado');
+```
+
+Qual a opção correta sobre qual valor é retornado pela função useState?
+
+- Selecione uma alternativa
+
+- A: Um array, com o primeiro index sendo a função de mudar o estado e o segundo sendo o estado.
+
+
+- B: Uma função que retorna o estado.
+
+
+- C: Uma string.
+
+
+- D: Um array, com o primeiro index sendo o estado e o segundo sendo à função de mudar o estado.
+`Alternativa correta! Isso aí! A função useState retorna um array para que possamos desestruturar e pegar os valores de forma simples, apenas utilizando [estado, funcaoQueMudaOEstado].`
+
+- Exemplo:
+    - react_studies_37
 
 
 
