@@ -940,12 +940,54 @@ Qual a opção correta sobre qual valor é retornado pela função useState?
 
 
 
+### 38 - Para saber mais: Sobre reatividade
+
+**Para saber mais: Sobre reatividade**
+
+Legal ver como o React lida com estados né?
+
+Agora que você já tem uma ideia sobre como o React utiliza os estados para atualizar seus componentes, eu vou ter que te contar um segredo que vai explodir a sua mente… Está pronto??
+
+O REACT NÃO É REATIVO!!
+
+Ué Luiz, mas o nome da biblioteca é React, tu tá falando o tempo todo sobre reatividade e a biblioteca não é reativa?? tu tá me enganando!!
+
+Na verdade é isso mesmo, no próprio site do React se apresenta como declarativo e não reativo.
+
+<p align="center">
+  <img alt="...." src="./src/aula5-imagem1.png" width="70%">
+</p>
+
+alt text: Página do site oficial do React com textos divididos em três colunas com títulos declarativo, baseado em componentes e aprenda uma vez, use em qualquer lugar
+
+Antes de tudo, isso vai afetar em algo o desenvolvimento? A resposta é Não! Por isso não abordamos isso durante o vídeo, a ideia do vídeo é ser algo prático e aqui é o lugar perfeito para falarmos sobre isso. Caso você queira entender um pouco mais a fundo como/porque o React utiliza o paradigma declarativo, vem comigo que é sucesso!
+
+Você já teve contato com algum editor de planilhas, por exemplo o Excel? Quando criamos uma planilha e fazemos uma soma entre 2 valores, sempre que um desses valores é atualizado o outro é atualizado de forma reativa.
+
+Agora você lembra em como a gente tentou mudar as tarefas no vídeo anterior e percebemos que, sem o uso do state, ele não atualiza a interface? Então, isso é um dos motivos do React não ser reativo, ele precisa de forma manual criar um estado que será "observado" por quem usa esse estado para que ele atualize a interface, e para isso você tem que declarar/se inscrever neste estado para que haja alguma mudança.
+
+Poxa, mas por que ele não é reativo?
+
+Para início de conversa, Javascript não é uma linguagem reativa, logo, seus pacotes também não deveriam ser, a não ser que tenhamos uma grande mudança. Existe um pacote chamado RxJS que é uma referência em reatividade com Javascript, mas a equipe do React não demonstrou até agora nenhum interesse de deixar o pacote reativo, e eu posso explicar o porquê.
+
+React aproveita muito bem o paradigma declarativo e ele cai como uma luva em como ele gostaria que houvesse renderizações nos componentes. O React "te pede" para colocar alguma variável que necessita de uma mudança visual dentro de um estado, pois com isso, ele conseguirá ter um controle maior em quando o componente será atualizado, e isso traz um ganho de performance imenso!
+
+Imagina se a nossa aplicação reagisse a literalmente tudo que muda no código, seria MUITA renderização né? e isso com a atualização do DOM custa muito caro.
+
+Essa necessidade de se criar um estado faz com que o React tenha liberdade de criar muitas coisas por debaixo dos panos como batching e Suspense mas isso vamos deixar para outro curso ;)
+
+Caso queira saber mais sobre isso, veja:
+
+Caso você entenda inglês, tem essa palestra no ReactNYC sobre isso;
+Existe também o Manifesto Reativo, que te permite ver o que pode ser considerado Reativo.
+ 
+
+- Link1: https://www.youtube.com/watch?v=ZZoB5frlcnE
+- Link2: https://www.reactivemanifesto.org/pt-BR
 
 
-
-
-
-
+- Exemplo:
+    - react_studies_38
 
 
 
