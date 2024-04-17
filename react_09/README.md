@@ -992,7 +992,79 @@ Existe também o Manifesto Reativo, que te permite ver o que pode ser considerad
 
 
 
+### 39 - Faça como eu fiz: Adicionando um estado na lista
 
+**Faça como eu fiz: Adicionando um estado na lista**
+
+Crie um estado no componente Lista no arquivo src/components/Lista/index.tsx chamado tarefas com o valor inicial de:
+
+```jsx
+[
+  {
+    tarefa: 'React',
+    tempo: "02:00:00"
+  },
+  {
+    tarefa: 'Javascript',
+    tempo: "01:00:00"
+  },
+  {
+    tarefa: 'Typescript',
+    tempo: "03:00:00"
+  }
+]
+```
+
+Após isso, coloque um onClick no h2 adicionando uma nova tarefa { tarefa: "Estudar estado", tempo: "05:00:00" }.
+
+- Opinião do instrutor
+
+Dentro de src/components/Lista/index.tsx:
+
+```jsx
+import React, { useState } from 'react';
+import Item from './Item';
+import style from './Lista.module.scss';
+
+function Lista() {
+  const [tarefas, setTarefas] = useState(
+    [{
+      tarefa: 'React',
+      tempo: "02:00:00"
+    },
+    {
+      tarefa: 'Javascript',
+      tempo: "01:00:00"
+    },
+    {
+      tarefa: 'Typescript',
+      tempo: "03:00:00"
+    }]
+  );
+  return (
+    <aside className={style.listaTarefas}>
+      <h2 onClick={() => setTarefas([...tarefas, { tarefa: "Estudar estado", tempo: "05:00:00" }])}> … </h2>
+      …
+    </aside>
+  ) 
+}
+```
+
+Dessa forma, conseguimos ver os estados do React em ação e a utilização de eventos para podermos atualizar esses estados!
+
+No caso, utilizamos o hook useState que retorna um array com 2 itens, sendo o primeiro o estado atual em forma de variável e o segundo sendo uma função que podemos utilizar para mudar esses estados. A comunidade adota essa forma de pegar o estado estado, setEstado, que é a forma de desestruturar um array em JS, e assim fica muito mais fácil de entender visualmente o que é cada coisa também, imagina se fizéssemos assim:
+
+```jsx
+const tarefas = useState([]);
+tarefas[1]([...tarefas[0], 'outra tarefa'])
+```
+
+Funciona? funciona, mas você vai conseguir entender o que é cada um? Provavelmente não, por isso a desestruturação dá tão certo nesse caso!
+
+Outra coisa que podemos observar é que, diferente do DOM, o evento de click está sendo disparado de um onClick, com camel case, não de um onclick como estamos habituados. Isso acontece pois estamos lidando com JSX não com HTML, e eventos em JSX funcionam em camel case, então, se você quiser disparar um evento de click, o prop é onClick, assim como change é onChange, focus é onFocus etc.
+
+- Exemplo:
+    - react_studies_39
 
 
 
