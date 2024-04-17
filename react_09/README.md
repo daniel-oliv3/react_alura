@@ -449,7 +449,7 @@ Nessa aula, você aprendeu como:
 
 
 ##
-### Parte 2 - Usando CSS
+### Parte 3 - Usando CSS
 ##
 
 
@@ -875,7 +875,35 @@ Nessa aula, você aprendeu como:
     - react_studies_35
 
 
+### 36 - Introduzindo estados
 
+**Introduzindo estados**
+
+- Resolvendo erro `this.props.children` temporario, R: `<any, any>`
+
+```jsx
+import React from 'react';
+import style from './Botao.module.scss';
+
+class Botao extends React.Component <any, any>{
+  render() {
+    return (
+      <button className={style.botao}>
+        {this.props.children}
+      </button>
+    )
+  }
+}
+
+export default Botao;
+```
+
+- Link1: https://cursos.alura.com.br/forum/topico-property-children-does-not-exist-on-type-readonly-214635
+
+- Link2: https://cursos.alura.com.br/forum/topico-erro-ao-chamar-children-213930
+
+- Exemplo:
+    - react_studies_36
 
 
 
