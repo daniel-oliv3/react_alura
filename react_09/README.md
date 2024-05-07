@@ -1068,11 +1068,21 @@ Outra coisa que podemos observar é que, diferente do DOM, o evento de click est
 
 
 
+### 40 - Controlando o formulário
+
+**Controlando o formulário**
+
+- Exemplo:
+    - react_studies_40
 
 
 
+### 41 - Adicionando uma tarefa
 
+**Adicionando uma tarefa**
 
+- Exemplo:
+    - react_studies_41
 
 
 
